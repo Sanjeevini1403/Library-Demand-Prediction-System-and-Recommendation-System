@@ -1,0 +1,31 @@
+event_id,event_type,start_date,end_date,semester_type,department
+1,Semester Start,2024-07-01,2024-07-07,Odd-Semester,All
+2,Internal Test 1,2024-08-18,2024-08-23,Odd-Semester,All
+3,Internal Test 2,2024-10-06,2024-10-11,Odd-Semester,All
+4,Semester Exam,2024-11-01,2024-11-25,Odd-Semester,All
+10,Holiday - Term Break,2024-11-26,2024-11-30,Odd-Semester,All
+5,Semester Start,2024-12-01,2024-12-07,Even-Semester,All
+6,Internal Test 1,2025-01-12,2025-01-17,Even-Semester,All
+7,Internal Test 2,2025-03-02,2025-03-07,Even-Semester,All
+8,Semester Exam,2025-04-01,2025-04-25,Even-Semester,All
+9,Holiday - Summer Vacation,2025-05-01,2025-05-31,Vacation,All
+11,Semester Start,2025-07-01,2025-07-07,Odd-Semester,All
+12,Internal Test 1,2025-08-18,2025-08-23,Odd-Semester,All
+13,Internal Test 2,2025-10-06,2025-10-11,Odd-Semester,All
+14,Semester Exam,2025-11-01,2025-11-25,Odd-Semester,All
+20,Holiday - Term Break,2025-11-26,2025-11-30,Odd-Semester,All
+15,Semester Start,2025-12-01,2025-12-07,Even-Semester,All
+16,Internal Test 1,2026-01-12,2026-01-17,Even-Semester,All
+17,Internal Test 2,2026-03-02,2026-03-07,Even-Semester,All
+18,Semester Exam,2026-04-01,2026-04-25,Even-Semester,All
+19,Holiday - Summer Vacation,2026-05-01,2026-05-31,Vacation,All
+21,Semester Start,2026-07-01,2026-07-07,Odd-Semester,All
+22,Internal Test 1,2026-08-18,2026-08-23,Odd-Semester,All
+23,Internal Test 2,2026-10-06,2026-10-11,Odd-Semester,All
+24,Semester Exam,2026-11-01,2026-11-25,Odd-Semester,All
+30,Holiday - Term Break,2026-11-26,2026-11-30,Odd-Semester,All
+25,Semester Start,2026-12-01,2026-12-07,Even-Semester,All
+26,Internal Test 1,2027-01-12,2027-01-17,Even-Semester,All
+27,Internal Test 2,2027-03-02,2027-03-07,Even-Semester,All
+28,Semester Exam,2027-04-01,2027-04-25,Even-Semester,All
+29,Holiday - Summer Vacation,2027-05-01,2027-05-31,Vacation,All

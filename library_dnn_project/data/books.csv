@@ -1,0 +1,801 @@
+book_id,title,author,category,department,total_copies,available_copies,publish_year,base_popularity,difficulty_level,unit_cost,currently_on_loan
+1,Fundamentals of AI/ML Vol.1,Author 58,AI/ML,Computer Science,8,8,2016,0.354,Beginner,395,0
+2,Advanced AI/ML Vol.3,Author 109,AI/ML,Computer Science,2,2,2025,0.249,Advanced,814,0
+3,Introduction to AI/ML Vol.1,Author 130,AI/ML,Computer Science,2,2,2014,0.416,Beginner,389,0
+4,Applied AI/ML Vol.1,Author 108,AI/ML,Computer Science,6,6,2014,0.16,Advanced,1049,0
+5,AI/ML Made Easy Vol.2,Author 41,AI/ML,Computer Science,6,6,2016,0.55,Beginner,273,0
+6,Concepts of AI/ML Vol.2,Author 87,AI/ML,Computer Science,4,4,2012,0.111,Intermediate,580,0
+7,Fundamentals of AI/ML Vol.1,Author 89,AI/ML,Computer Science,5,5,2011,0.51,Beginner,453,0
+8,Applied AI/ML Vol.2,Author 138,AI/ML,Computer Science,10,10,2009,0.177,Advanced,1005,0
+9,Fundamentals of AI/ML Vol.2,Author 93,AI/ML,Computer Science,2,2,2025,0.198,Beginner,420,0
+10,Applied AI/ML Vol.1,Author 59,AI/ML,Computer Science,8,8,2010,0.376,Advanced,793,0
+11,A Practical Guide to AI/ML Vol.1,Author 98,AI/ML,Computer Science,10,10,2015,0.543,Intermediate,521,0
+12,A Practical Guide to AI/ML Vol.2,Author 95,AI/ML,Computer Science,8,8,2019,0.085,Intermediate,553,0
+13,AI/ML: Theory and Practice Vol.1,Author 44,AI/ML,Computer Science,8,8,2016,0.358,Intermediate,506,0
+14,AI/ML for Engineers Vol.3,Author 98,AI/ML,Computer Science,3,3,2013,0.273,Intermediate,706,0
+15,A Practical Guide to AI/ML Vol.3,Author 84,AI/ML,Computer Science,8,8,2025,0.134,Intermediate,582,0
+16,Introduction to AI/ML Vol.1,Author 103,AI/ML,Computer Science,10,10,2009,0.353,Beginner,431,0
+17,A Practical Guide to AI/ML Vol.1,Author 128,AI/ML,Computer Science,3,3,2018,0.133,Intermediate,578,0
+18,Concepts of AI/ML Vol.3,Author 36,AI/ML,Computer Science,5,5,2012,0.326,Intermediate,605,0
+19,AI/ML Made Easy Vol.3,Author 150,AI/ML,Computer Science,6,6,2025,0.166,Beginner,404,0
+20,Concepts of AI/ML Vol.3,Author 36,AI/ML,Computer Science,5,5,2019,0.208,Intermediate,582,0
+21,AI/ML for Engineers Vol.2,Author 40,AI/ML,Computer Science,2,2,2009,0.263,Intermediate,526,0
+22,Advanced AI/ML Vol.3,Author 98,AI/ML,Computer Science,5,5,2010,0.39,Advanced,967,0
+23,Applied AI/ML Vol.2,Author 3,AI/ML,Computer Science,6,6,2016,0.154,Advanced,1053,0
+24,Fundamentals of AI/ML Vol.3,Author 88,AI/ML,Computer Science,6,6,2016,0.306,Beginner,598,0
+25,Fundamentals of AI/ML Vol.2,Author 1,AI/ML,Computer Science,5,5,2013,0.203,Beginner,502,0
+26,A Practical Guide to AI/ML Vol.3,Author 28,AI/ML,Computer Science,10,10,2013,0.184,Intermediate,729,0
+27,A Practical Guide to AI/ML Vol.3,Author 96,AI/ML,Computer Science,6,6,2014,0.368,Intermediate,548,0
+28,Advanced AI/ML Vol.3,Author 83,AI/ML,Computer Science,10,10,2024,0.202,Advanced,770,0
+29,Mastering AI/ML Vol.1,Author 62,AI/ML,Computer Science,2,2,2019,0.186,Advanced,927,0
+30,Introduction to AI/ML Vol.1,Author 125,AI/ML,Computer Science,6,6,2010,0.284,Beginner,313,0
+31,Bioprocess for Engineers Vol.1,Author 43,Bioprocess,Biotechnology,3,3,2023,0.1,Intermediate,751,0
+32,A Practical Guide to Bioprocess Vol.3,Author 139,Bioprocess,Biotechnology,10,10,2021,0.208,Intermediate,578,0
+33,Bioprocess Made Easy Vol.3,Author 113,Bioprocess,Biotechnology,4,4,2020,0.31,Beginner,461,0
+34,Bioprocess for Engineers Vol.2,Author 17,Bioprocess,Biotechnology,2,2,2015,0.044,Intermediate,585,0
+35,Bioprocess: Theory and Practice Vol.1,Author 57,Bioprocess,Biotechnology,6,6,2025,0.125,Intermediate,587,0
+36,Introduction to Bioprocess Vol.1,Author 18,Bioprocess,Biotechnology,8,8,2009,0.211,Beginner,387,0
+37,Introduction to Bioprocess Vol.2,Author 72,Bioprocess,Biotechnology,2,2,2024,0.358,Beginner,391,0
+38,Mastering Bioprocess Vol.1,Author 148,Bioprocess,Biotechnology,6,6,2012,0.652,Advanced,1062,0
+39,Mastering Bioprocess Vol.1,Author 49,Bioprocess,Biotechnology,10,10,2023,0.162,Advanced,978,0
+40,Fundamentals of Bioprocess Vol.1,Author 109,Bioprocess,Biotechnology,8,8,2021,0.069,Beginner,451,0
+41,Concepts of Bioprocess Vol.2,Author 26,Bioprocess,Biotechnology,10,10,2009,0.077,Intermediate,800,0
+42,Introduction to Bioprocess Vol.2,Author 64,Bioprocess,Biotechnology,8,8,2018,0.174,Beginner,325,0
+43,Bioprocess Made Easy Vol.1,Author 109,Bioprocess,Biotechnology,6,6,2022,0.543,Beginner,341,0
+44,Advanced Bioprocess Vol.2,Author 114,Bioprocess,Biotechnology,5,5,2015,0.062,Advanced,808,0
+45,Bioprocess for Engineers Vol.1,Author 24,Bioprocess,Biotechnology,2,2,2025,0.236,Intermediate,477,0
+46,Bioprocess Made Easy Vol.1,Author 55,Bioprocess,Biotechnology,5,5,2023,0.313,Beginner,516,0
+47,Concepts of Bioprocess Vol.1,Author 100,Bioprocess,Biotechnology,3,3,2020,0.153,Intermediate,471,0
+48,A Practical Guide to Bioprocess Vol.2,Author 125,Bioprocess,Biotechnology,4,4,2021,0.387,Intermediate,754,0
+49,Advanced Bioprocess Vol.1,Author 149,Bioprocess,Biotechnology,4,4,2014,0.485,Advanced,799,0
+50,Bioprocess for Engineers Vol.1,Author 13,Bioprocess,Biotechnology,8,8,2018,0.096,Intermediate,499,0
+51,Applied Bioprocess Vol.2,Author 15,Bioprocess,Biotechnology,6,6,2024,0.366,Advanced,850,0
+52,Fundamentals of Circuits Vol.1,Author 104,Circuits,Electronics & Comm.,2,2,2010,0.298,Beginner,390,0
+53,Fundamentals of Circuits Vol.3,Author 21,Circuits,Electronics & Comm.,3,3,2009,0.224,Beginner,587,0
+54,Concepts of Circuits Vol.3,Author 67,Circuits,Electronics & Comm.,6,6,2024,0.164,Intermediate,631,0
+55,Circuits Made Easy Vol.3,Author 68,Circuits,Electronics & Comm.,8,8,2018,0.461,Beginner,392,0
+56,Concepts of Circuits Vol.1,Author 81,Circuits,Electronics & Comm.,8,8,2017,0.098,Intermediate,704,0
+57,Fundamentals of Circuits Vol.1,Author 138,Circuits,Electronics & Comm.,5,5,2011,0.179,Beginner,307,0
+58,Circuits Made Easy Vol.3,Author 18,Circuits,Electronics & Comm.,4,4,2012,0.343,Beginner,448,0
+59,Circuits Made Easy Vol.2,Author 140,Circuits,Electronics & Comm.,4,4,2013,0.275,Beginner,494,0
+60,A Practical Guide to Circuits Vol.3,Author 142,Circuits,Electronics & Comm.,10,10,2024,0.443,Intermediate,474,0
+61,A Practical Guide to Circuits Vol.3,Author 30,Circuits,Electronics & Comm.,2,2,2012,0.133,Intermediate,605,0
+62,Fundamentals of Circuits Vol.3,Author 73,Circuits,Electronics & Comm.,6,6,2012,0.401,Beginner,409,0
+63,Applied Circuits Vol.1,Author 68,Circuits,Electronics & Comm.,8,8,2018,0.323,Advanced,874,0
+64,Circuits for Engineers Vol.2,Author 109,Circuits,Electronics & Comm.,4,4,2009,0.292,Intermediate,517,0
+65,A Practical Guide to Circuits Vol.1,Author 68,Circuits,Electronics & Comm.,2,2,2018,0.114,Intermediate,536,0
+66,Advanced Circuits Vol.3,Author 144,Circuits,Electronics & Comm.,5,5,2025,0.342,Advanced,988,0
+67,Introduction to Circuits Vol.1,Author 10,Circuits,Electronics & Comm.,2,2,2012,0.17,Beginner,549,0
+68,Circuits: Theory and Practice Vol.3,Author 33,Circuits,Electronics & Comm.,6,6,2012,0.801,Intermediate,690,0
+69,Introduction to Circuits Vol.2,Author 54,Circuits,Electronics & Comm.,4,4,2009,0.132,Beginner,453,0
+70,Circuits Made Easy Vol.3,Author 105,Circuits,Electronics & Comm.,2,2,2019,0.125,Beginner,556,0
+71,Applied Circuits Vol.3,Author 46,Circuits,Electronics & Comm.,3,3,2015,0.337,Advanced,853,0
+72,Concepts of Circuits Vol.1,Author 64,Circuits,Electronics & Comm.,3,3,2018,0.034,Intermediate,680,0
+73,A Practical Guide to Circuits Vol.1,Author 10,Circuits,Electronics & Comm.,10,10,2011,0.159,Intermediate,665,0
+74,Mastering Circuits Vol.1,Author 79,Circuits,Electronics & Comm.,3,3,2022,0.262,Advanced,949,0
+75,Circuits Made Easy Vol.1,Author 85,Circuits,Electronics & Comm.,2,2,2014,0.249,Beginner,474,0
+76,A Practical Guide to Circuits Vol.1,Author 131,Circuits,Electronics & Comm.,10,10,2016,0.069,Intermediate,649,0
+77,Concepts of Circuits Vol.3,Author 8,Circuits,Electronics & Comm.,10,10,2025,0.46,Intermediate,639,0
+78,Fundamentals of Circuits Vol.2,Author 28,Circuits,Electronics & Comm.,3,3,2016,0.541,Beginner,289,0
+79,Applied Circuits Vol.2,Author 131,Circuits,Electronics & Comm.,4,4,2018,0.261,Advanced,993,0
+80,Concepts of Communication Systems Vol.3,Author 112,Communication Systems,Electronics & Comm.,3,3,2016,0.068,Intermediate,492,0
+81,Introduction to Communication Systems Vol.3,Author 94,Communication Systems,Electronics & Comm.,10,10,2025,0.047,Beginner,370,0
+82,Concepts of Communication Systems Vol.1,Author 81,Communication Systems,Electronics & Comm.,8,8,2018,0.127,Intermediate,789,0
+83,Fundamentals of Communication Systems Vol.3,Author 105,Communication Systems,Electronics & Comm.,4,4,2024,0.327,Beginner,428,0
+84,Communication Systems: Theory and Practice Vol.2,Author 33,Communication Systems,Electronics & Comm.,8,8,2017,0.119,Intermediate,753,0
+85,Communication Systems Made Easy Vol.2,Author 146,Communication Systems,Electronics & Comm.,8,8,2020,0.108,Beginner,359,0
+86,A Practical Guide to Communication Systems Vol.2,Author 74,Communication Systems,Electronics & Comm.,6,6,2008,0.325,Intermediate,625,0
+87,Communication Systems Made Easy Vol.2,Author 114,Communication Systems,Electronics & Comm.,10,10,2018,0.219,Beginner,508,0
+88,Mastering Communication Systems Vol.3,Author 44,Communication Systems,Electronics & Comm.,3,3,2024,0.305,Advanced,1012,0
+89,Fundamentals of Communication Systems Vol.2,Author 61,Communication Systems,Electronics & Comm.,6,6,2018,0.404,Beginner,317,0
+90,A Practical Guide to Communication Systems Vol.1,Author 7,Communication Systems,Electronics & Comm.,10,10,2014,0.184,Intermediate,545,0
+91,Introduction to Communication Systems Vol.1,Author 107,Communication Systems,Electronics & Comm.,5,5,2010,0.234,Beginner,503,0
+92,Applied Communication Systems Vol.1,Author 103,Communication Systems,Electronics & Comm.,8,8,2020,0.175,Advanced,1023,0
+93,Communication Systems Made Easy Vol.1,Author 109,Communication Systems,Electronics & Comm.,8,8,2008,0.267,Beginner,324,0
+94,Communication Systems Made Easy Vol.1,Author 13,Communication Systems,Electronics & Comm.,10,10,2024,0.239,Beginner,507,0
+95,Communication Systems for Engineers Vol.1,Author 35,Communication Systems,Electronics & Comm.,10,10,2011,0.326,Intermediate,703,0
+96,Mastering Communication Systems Vol.3,Author 82,Communication Systems,Electronics & Comm.,6,6,2025,0.443,Advanced,1074,0
+97,Mastering Communication Systems Vol.3,Author 141,Communication Systems,Electronics & Comm.,10,10,2024,0.386,Advanced,988,0
+98,Mastering Communication Systems Vol.1,Author 67,Communication Systems,Electronics & Comm.,8,8,2023,0.096,Advanced,1000,0
+99,Communication Systems Made Easy Vol.3,Author 62,Communication Systems,Electronics & Comm.,4,4,2024,0.209,Beginner,518,0
+100,A Practical Guide to Communication Systems Vol.2,Author 70,Communication Systems,Electronics & Comm.,2,2,2017,0.166,Intermediate,590,0
+101,Competitive Exams: Theory and Practice Vol.3,Author 60,Competitive Exams,General,2,2,2012,0.227,Intermediate,547,0
+102,Concepts of Competitive Exams Vol.3,Author 107,Competitive Exams,General,3,3,2014,0.476,Intermediate,502,0
+103,Concepts of Competitive Exams Vol.2,Author 16,Competitive Exams,General,6,6,2022,0.116,Intermediate,682,0
+104,Competitive Exams Made Easy Vol.2,Author 98,Competitive Exams,General,5,5,2008,0.172,Beginner,564,0
+105,Mastering Competitive Exams Vol.1,Author 108,Competitive Exams,General,4,4,2017,0.241,Advanced,969,0
+106,Competitive Exams for Engineers Vol.3,Author 57,Competitive Exams,General,8,8,2025,0.197,Intermediate,778,0
+107,Mastering Competitive Exams Vol.1,Author 8,Competitive Exams,General,4,4,2021,0.155,Advanced,1018,0
+108,Concepts of Competitive Exams Vol.2,Author 120,Competitive Exams,General,8,8,2020,0.302,Intermediate,554,0
+109,Advanced Competitive Exams Vol.3,Author 145,Competitive Exams,General,6,6,2008,0.263,Advanced,971,0
+110,Introduction to Competitive Exams Vol.1,Author 119,Competitive Exams,General,8,8,2021,0.178,Beginner,339,0
+111,Advanced Competitive Exams Vol.1,Author 55,Competitive Exams,General,4,4,2020,0.071,Advanced,937,0
+112,Mastering Competitive Exams Vol.2,Author 108,Competitive Exams,General,4,4,2020,0.368,Advanced,912,0
+113,A Practical Guide to Competitive Exams Vol.1,Author 14,Competitive Exams,General,5,5,2008,0.165,Intermediate,746,0
+114,Competitive Exams: Theory and Practice Vol.1,Author 8,Competitive Exams,General,8,8,2010,0.646,Intermediate,490,0
+115,Competitive Exams Made Easy Vol.1,Author 40,Competitive Exams,General,10,10,2008,0.503,Beginner,588,0
+116,Competitive Exams Made Easy Vol.1,Author 56,Competitive Exams,General,5,5,2011,0.409,Beginner,558,0
+117,Mastering Competitive Exams Vol.3,Author 30,Competitive Exams,General,4,4,2019,0.378,Advanced,855,0
+118,Advanced Competitive Exams Vol.2,Author 148,Competitive Exams,General,2,2,2008,0.481,Advanced,929,0
+119,Concepts of Competitive Exams Vol.2,Author 63,Competitive Exams,General,8,8,2014,0.45,Intermediate,508,0
+120,Fundamentals of Competitive Exams Vol.3,Author 31,Competitive Exams,General,10,10,2017,0.315,Beginner,577,0
+121,Applied Competitive Exams Vol.1,Author 95,Competitive Exams,General,4,4,2025,0.346,Advanced,989,0
+122,Fundamentals of Competitive Exams Vol.3,Author 108,Competitive Exams,General,8,8,2018,0.539,Beginner,276,0
+123,Mastering Competitive Exams Vol.1,Author 118,Competitive Exams,General,5,5,2019,0.306,Advanced,1095,0
+124,Advanced Competitive Exams Vol.2,Author 138,Competitive Exams,General,3,3,2024,0.146,Advanced,908,0
+125,Mastering Competitive Exams Vol.2,Author 63,Competitive Exams,General,5,5,2016,0.452,Advanced,935,0
+126,A Practical Guide to Construction Vol.2,Author 98,Construction,Civil,3,3,2022,0.36,Intermediate,761,0
+127,Construction: Theory and Practice Vol.1,Author 125,Construction,Civil,5,5,2018,0.062,Intermediate,563,0
+128,Construction Made Easy Vol.2,Author 72,Construction,Civil,10,10,2016,0.233,Beginner,444,0
+129,Applied Construction Vol.3,Author 133,Construction,Civil,4,4,2025,0.192,Advanced,775,0
+130,Construction Made Easy Vol.1,Author 143,Construction,Civil,3,3,2021,0.52,Beginner,520,0
+131,Construction Made Easy Vol.3,Author 5,Construction,Civil,5,5,2023,0.22,Beginner,499,0
+132,Fundamentals of Construction Vol.2,Author 79,Construction,Civil,3,3,2020,0.138,Beginner,394,0
+133,Applied Construction Vol.2,Author 89,Construction,Civil,5,5,2025,0.472,Advanced,1041,0
+134,Concepts of Construction Vol.3,Author 117,Construction,Civil,6,6,2018,0.159,Intermediate,650,0
+135,A Practical Guide to Construction Vol.2,Author 50,Construction,Civil,4,4,2015,0.06,Intermediate,531,0
+136,Construction: Theory and Practice Vol.1,Author 50,Construction,Civil,8,8,2025,0.341,Intermediate,564,0
+137,Construction Made Easy Vol.3,Author 135,Construction,Civil,5,5,2016,0.307,Beginner,571,0
+138,Applied Construction Vol.2,Author 59,Construction,Civil,2,2,2014,0.279,Advanced,921,0
+139,Construction: Theory and Practice Vol.1,Author 33,Construction,Civil,4,4,2008,0.329,Intermediate,743,0
+140,A Practical Guide to Construction Vol.1,Author 33,Construction,Civil,2,2,2025,0.406,Intermediate,619,0
+141,Mastering Construction Vol.1,Author 73,Construction,Civil,10,10,2008,0.323,Advanced,1063,0
+142,Mastering Construction Vol.2,Author 14,Construction,Civil,5,5,2018,0.181,Advanced,864,0
+143,A Practical Guide to Construction Vol.2,Author 126,Construction,Civil,2,2,2010,0.11,Intermediate,675,0
+144,Fundamentals of Construction Vol.3,Author 39,Construction,Civil,8,8,2009,0.063,Beginner,347,0
+145,Applied Construction Vol.2,Author 143,Construction,Civil,2,2,2015,0.389,Advanced,830,0
+146,Concepts of Construction Vol.3,Author 98,Construction,Civil,6,6,2015,0.221,Intermediate,737,0
+147,Mastering Control Systems Vol.2,Author 146,Control Systems,Electrical,10,10,2021,0.171,Advanced,926,0
+148,Applied Control Systems Vol.1,Author 55,Control Systems,Electrical,6,6,2011,0.068,Advanced,876,0
+149,A Practical Guide to Control Systems Vol.3,Author 45,Control Systems,Electrical,2,2,2013,0.206,Intermediate,592,0
+150,Control Systems for Engineers Vol.1,Author 116,Control Systems,Electrical,3,3,2008,0.359,Intermediate,679,0
+151,Applied Control Systems Vol.2,Author 74,Control Systems,Electrical,4,4,2009,0.317,Advanced,888,0
+152,A Practical Guide to Control Systems Vol.3,Author 60,Control Systems,Electrical,10,10,2022,0.137,Intermediate,506,0
+153,A Practical Guide to Control Systems Vol.3,Author 30,Control Systems,Electrical,6,6,2014,0.217,Intermediate,687,0
+154,Control Systems for Engineers Vol.1,Author 37,Control Systems,Electrical,8,8,2012,0.136,Intermediate,606,0
+155,Fundamentals of Control Systems Vol.1,Author 146,Control Systems,Electrical,3,3,2017,0.064,Beginner,574,0
+156,A Practical Guide to Control Systems Vol.2,Author 104,Control Systems,Electrical,2,2,2022,0.579,Intermediate,625,0
+157,A Practical Guide to Control Systems Vol.3,Author 21,Control Systems,Electrical,6,6,2023,0.167,Intermediate,694,0
+158,Applied Control Systems Vol.1,Author 65,Control Systems,Electrical,5,5,2018,0.486,Advanced,1079,0
+159,Introduction to Control Systems Vol.1,Author 148,Control Systems,Electrical,3,3,2008,0.223,Beginner,407,0
+160,Introduction to Control Systems Vol.1,Author 72,Control Systems,Electrical,5,5,2024,0.373,Beginner,496,0
+161,Advanced Control Systems Vol.3,Author 121,Control Systems,Electrical,5,5,2023,0.387,Advanced,816,0
+162,Control Systems: Theory and Practice Vol.2,Author 42,Control Systems,Electrical,4,4,2018,0.291,Intermediate,523,0
+163,Control Systems: Theory and Practice Vol.2,Author 103,Control Systems,Electrical,8,8,2023,0.358,Intermediate,617,0
+164,Control Systems for Engineers Vol.1,Author 65,Control Systems,Electrical,5,5,2010,0.369,Intermediate,631,0
+165,Control Systems: Theory and Practice Vol.1,Author 1,Control Systems,Electrical,10,10,2020,0.434,Intermediate,733,0
+166,Control Systems for Engineers Vol.2,Author 133,Control Systems,Electrical,5,5,2009,0.059,Intermediate,566,0
+167,Control Systems: Theory and Practice Vol.3,Author 114,Control Systems,Electrical,10,10,2023,0.154,Intermediate,790,0
+168,Introduction to Control Systems Vol.1,Author 74,Control Systems,Electrical,4,4,2025,0.691,Beginner,337,0
+169,Mastering Control Systems Vol.3,Author 62,Control Systems,Electrical,5,5,2011,0.049,Advanced,784,0
+170,Advanced Control Systems Vol.2,Author 105,Control Systems,Electrical,6,6,2008,0.186,Advanced,1052,0
+171,Fundamentals of Control Systems Vol.1,Author 31,Control Systems,Electrical,10,10,2011,0.272,Beginner,506,0
+172,Advanced Control Systems Vol.2,Author 70,Control Systems,Electrical,8,8,2017,0.322,Advanced,1030,0
+173,Concepts of Control Systems Vol.2,Author 142,Control Systems,Electrical,5,5,2015,0.482,Intermediate,703,0
+174,Concepts of Data Structures Vol.1,Author 18,Data Structures,Computer Science,6,6,2024,0.32,Intermediate,539,0
+175,A Practical Guide to Data Structures Vol.2,Author 1,Data Structures,Computer Science,4,4,2024,0.492,Intermediate,606,0
+176,A Practical Guide to Data Structures Vol.3,Author 115,Data Structures,Computer Science,4,4,2023,0.184,Intermediate,546,0
+177,Data Structures for Engineers Vol.2,Author 140,Data Structures,Computer Science,4,4,2018,0.029,Intermediate,752,0
+178,Concepts of Data Structures Vol.2,Author 147,Data Structures,Computer Science,4,4,2014,0.438,Intermediate,592,0
+179,Concepts of Data Structures Vol.1,Author 82,Data Structures,Computer Science,10,10,2021,0.22,Intermediate,492,0
+180,Mastering Data Structures Vol.3,Author 39,Data Structures,Computer Science,10,10,2020,0.127,Advanced,967,0
+181,Mastering Data Structures Vol.1,Author 85,Data Structures,Computer Science,3,3,2024,0.562,Advanced,1072,0
+182,Fundamentals of Data Structures Vol.2,Author 4,Data Structures,Computer Science,2,2,2024,0.135,Beginner,503,0
+183,Advanced Data Structures Vol.2,Author 121,Data Structures,Computer Science,10,10,2012,0.189,Advanced,808,0
+184,A Practical Guide to Data Structures Vol.2,Author 85,Data Structures,Computer Science,6,6,2020,0.279,Intermediate,511,0
+185,Data Structures for Engineers Vol.2,Author 10,Data Structures,Computer Science,4,4,2023,0.258,Intermediate,747,0
+186,Applied Data Structures Vol.1,Author 24,Data Structures,Computer Science,3,3,2017,0.171,Advanced,886,0
+187,Concepts of Data Structures Vol.1,Author 43,Data Structures,Computer Science,10,10,2011,0.39,Intermediate,697,0
+188,A Practical Guide to Data Structures Vol.1,Author 76,Data Structures,Computer Science,2,2,2018,0.139,Intermediate,498,0
+189,Data Structures: Theory and Practice Vol.2,Author 136,Data Structures,Computer Science,5,5,2012,0.466,Intermediate,595,0
+190,Concepts of Data Structures Vol.3,Author 45,Data Structures,Computer Science,8,8,2013,0.616,Intermediate,557,0
+191,Fundamentals of Data Structures Vol.3,Author 62,Data Structures,Computer Science,10,10,2020,0.307,Beginner,587,0
+192,Mastering Data Structures Vol.3,Author 66,Data Structures,Computer Science,3,3,2015,0.312,Advanced,1006,0
+193,Mastering Data Structures Vol.2,Author 74,Data Structures,Computer Science,8,8,2008,0.135,Advanced,1008,0
+194,Data Structures for Engineers Vol.1,Author 77,Data Structures,Computer Science,2,2,2022,0.724,Intermediate,646,0
+195,Concepts of Data Structures Vol.3,Author 51,Data Structures,Computer Science,4,4,2022,0.119,Intermediate,624,0
+196,Mastering Databases Vol.1,Author 92,Databases,Computer Science,3,3,2020,0.285,Advanced,1062,0
+197,Applied Databases Vol.2,Author 102,Databases,Computer Science,8,8,2017,0.514,Advanced,781,0
+198,A Practical Guide to Databases Vol.1,Author 128,Databases,Computer Science,6,6,2009,0.156,Intermediate,780,0
+199,A Practical Guide to Databases Vol.1,Author 49,Databases,Computer Science,6,6,2019,0.261,Intermediate,582,0
+200,Applied Databases Vol.2,Author 25,Databases,Computer Science,8,8,2012,0.14,Advanced,1091,0
+201,Introduction to Databases Vol.2,Author 149,Databases,Computer Science,10,10,2022,0.388,Beginner,287,0
+202,Databases: Theory and Practice Vol.3,Author 84,Databases,Computer Science,3,3,2010,0.464,Intermediate,621,0
+203,Concepts of Databases Vol.1,Author 94,Databases,Computer Science,3,3,2012,0.128,Intermediate,746,0
+204,Databases for Engineers Vol.3,Author 124,Databases,Computer Science,4,4,2013,0.055,Intermediate,601,0
+205,A Practical Guide to Databases Vol.3,Author 120,Databases,Computer Science,10,10,2018,0.02,Intermediate,528,0
+206,Fundamentals of Databases Vol.1,Author 143,Databases,Computer Science,10,10,2015,0.159,Beginner,473,0
+207,Databases: Theory and Practice Vol.1,Author 68,Databases,Computer Science,10,10,2020,0.267,Intermediate,477,0
+208,Databases for Engineers Vol.1,Author 150,Databases,Computer Science,5,5,2019,0.53,Intermediate,604,0
+209,Concepts of Databases Vol.3,Author 121,Databases,Computer Science,4,4,2011,0.307,Intermediate,589,0
+210,Introduction to Databases Vol.3,Author 57,Databases,Computer Science,6,6,2018,0.25,Beginner,582,0
+211,Fundamentals of Databases Vol.3,Author 105,Databases,Computer Science,10,10,2022,0.404,Beginner,424,0
+212,Fundamentals of Databases Vol.1,Author 127,Databases,Computer Science,2,2,2009,0.37,Beginner,425,0
+213,Fundamentals of Databases Vol.1,Author 100,Databases,Computer Science,3,3,2025,0.221,Beginner,339,0
+214,Mastering Databases Vol.2,Author 40,Databases,Computer Science,8,8,2025,0.091,Advanced,984,0
+215,Concepts of Databases Vol.3,Author 105,Databases,Computer Science,2,2,2023,0.426,Intermediate,785,0
+216,A Practical Guide to Databases Vol.1,Author 114,Databases,Computer Science,8,8,2019,0.308,Intermediate,581,0
+217,Mastering Databases Vol.1,Author 95,Databases,Computer Science,10,10,2019,0.087,Advanced,820,0
+218,Databases for Engineers Vol.3,Author 71,Databases,Computer Science,4,4,2009,0.32,Intermediate,673,0
+219,Databases Made Easy Vol.1,Author 55,Databases,Computer Science,10,10,2022,0.172,Beginner,316,0
+220,Applied Databases Vol.1,Author 33,Databases,Computer Science,2,2,2018,0.524,Advanced,894,0
+221,Applied Databases Vol.1,Author 56,Databases,Computer Science,2,2,2025,0.144,Advanced,876,0
+222,Deep Learning: Theory and Practice Vol.1,Author 38,Deep Learning,AI & Data Science,10,10,2008,0.437,Intermediate,611,0
+223,Advanced Deep Learning Vol.3,Author 7,Deep Learning,AI & Data Science,4,4,2013,0.562,Advanced,826,0
+224,Advanced Deep Learning Vol.1,Author 83,Deep Learning,AI & Data Science,4,4,2015,0.204,Advanced,1071,0
+225,Introduction to Deep Learning Vol.1,Author 108,Deep Learning,AI & Data Science,4,4,2009,0.265,Beginner,334,0
+226,Deep Learning for Engineers Vol.1,Author 115,Deep Learning,AI & Data Science,8,8,2010,0.343,Intermediate,713,0
+227,Deep Learning: Theory and Practice Vol.3,Author 129,Deep Learning,AI & Data Science,6,6,2011,0.308,Intermediate,701,0
+228,Deep Learning Made Easy Vol.3,Author 118,Deep Learning,AI & Data Science,2,2,2024,0.078,Beginner,424,0
+229,Introduction to Deep Learning Vol.1,Author 28,Deep Learning,AI & Data Science,5,5,2020,0.204,Beginner,488,0
+230,Mastering Deep Learning Vol.3,Author 83,Deep Learning,AI & Data Science,5,5,2010,0.468,Advanced,811,0
+231,Applied Deep Learning Vol.1,Author 150,Deep Learning,AI & Data Science,2,2,2012,0.224,Advanced,910,0
+232,Deep Learning for Engineers Vol.3,Author 136,Deep Learning,AI & Data Science,4,4,2020,0.564,Intermediate,775,0
+233,A Practical Guide to Deep Learning Vol.2,Author 30,Deep Learning,AI & Data Science,6,6,2021,0.458,Intermediate,520,0
+234,Deep Learning for Engineers Vol.3,Author 116,Deep Learning,AI & Data Science,10,10,2014,0.229,Intermediate,690,0
+235,Deep Learning Made Easy Vol.2,Author 107,Deep Learning,AI & Data Science,4,4,2022,0.194,Beginner,474,0
+236,Fundamentals of Deep Learning Vol.2,Author 96,Deep Learning,AI & Data Science,5,5,2018,0.114,Beginner,400,0
+237,Advanced Deep Learning Vol.3,Author 22,Deep Learning,AI & Data Science,5,5,2010,0.119,Advanced,816,0
+238,Fundamentals of Deep Learning Vol.2,Author 143,Deep Learning,AI & Data Science,2,2,2019,0.224,Beginner,336,0
+239,Introduction to Deep Learning Vol.3,Author 32,Deep Learning,AI & Data Science,6,6,2025,0.175,Beginner,438,0
+240,Concepts of Deep Learning Vol.2,Author 74,Deep Learning,AI & Data Science,10,10,2021,0.238,Intermediate,496,0
+241,Applied Deep Learning Vol.2,Author 130,Deep Learning,AI & Data Science,4,4,2011,0.438,Advanced,1065,0
+242,Deep Learning Made Easy Vol.1,Author 28,Deep Learning,AI & Data Science,8,8,2023,0.305,Beginner,384,0
+243,Deep Learning: Theory and Practice Vol.3,Author 147,Deep Learning,AI & Data Science,4,4,2011,0.411,Intermediate,612,0
+244,Deep Learning Made Easy Vol.2,Author 143,Deep Learning,AI & Data Science,10,10,2025,0.238,Beginner,588,0
+245,Applied Design Vol.3,Author 47,Design,Mechanical,10,10,2016,0.306,Advanced,784,0
+246,A Practical Guide to Design Vol.3,Author 90,Design,Mechanical,10,10,2017,0.224,Intermediate,643,0
+247,Introduction to Design Vol.1,Author 103,Design,Mechanical,10,10,2012,0.228,Beginner,559,0
+248,Fundamentals of Design Vol.1,Author 136,Design,Mechanical,8,8,2008,0.601,Beginner,316,0
+249,Design Made Easy Vol.2,Author 41,Design,Mechanical,5,5,2022,0.186,Beginner,444,0
+250,Design: Theory and Practice Vol.2,Author 22,Design,Mechanical,8,8,2018,0.332,Intermediate,760,0
+251,Introduction to Design Vol.1,Author 70,Design,Mechanical,3,3,2009,0.154,Beginner,311,0
+252,Mastering Design Vol.3,Author 114,Design,Mechanical,5,5,2023,0.59,Advanced,1080,0
+253,Concepts of Design Vol.2,Author 89,Design,Mechanical,3,3,2024,0.136,Intermediate,528,0
+254,Concepts of Design Vol.1,Author 79,Design,Mechanical,4,4,2023,0.145,Intermediate,739,0
+255,Introduction to Design Vol.1,Author 53,Design,Mechanical,5,5,2009,0.47,Beginner,273,0
+256,A Practical Guide to Design Vol.1,Author 75,Design,Mechanical,10,10,2012,0.347,Intermediate,600,0
+257,Design: Theory and Practice Vol.1,Author 45,Design,Mechanical,2,2,2023,0.224,Intermediate,690,0
+258,Advanced Design Vol.2,Author 144,Design,Mechanical,6,6,2015,0.381,Advanced,1026,0
+259,Design: Theory and Practice Vol.1,Author 5,Design,Mechanical,5,5,2009,0.253,Intermediate,693,0
+260,Mastering Design Vol.1,Author 110,Design,Mechanical,10,10,2018,0.192,Advanced,1064,0
+261,Applied Design Vol.2,Author 30,Design,Mechanical,8,8,2021,0.218,Advanced,918,0
+262,Concepts of Design Vol.1,Author 118,Design,Mechanical,4,4,2013,0.547,Intermediate,786,0
+263,Design: Theory and Practice Vol.1,Author 112,Design,Mechanical,5,5,2011,0.432,Intermediate,594,0
+264,Applied Design Vol.2,Author 80,Design,Mechanical,6,6,2010,0.338,Advanced,972,0
+265,Fiction Made Easy Vol.2,Author 131,Fiction,General,10,10,2013,0.28,Beginner,309,0
+266,Fundamentals of Fiction Vol.3,Author 90,Fiction,General,6,6,2014,0.205,Beginner,448,0
+267,Advanced Fiction Vol.1,Author 51,Fiction,General,2,2,2012,0.198,Advanced,901,0
+268,Advanced Fiction Vol.3,Author 127,Fiction,General,3,3,2010,0.42,Advanced,860,0
+269,Mastering Fiction Vol.3,Author 83,Fiction,General,10,10,2022,0.095,Advanced,1059,0
+270,Fiction: Theory and Practice Vol.1,Author 114,Fiction,General,5,5,2010,0.068,Intermediate,710,0
+271,A Practical Guide to Fiction Vol.2,Author 130,Fiction,General,6,6,2009,0.373,Intermediate,650,0
+272,Fundamentals of Fiction Vol.2,Author 15,Fiction,General,5,5,2022,0.181,Beginner,289,0
+273,Fiction: Theory and Practice Vol.2,Author 130,Fiction,General,2,2,2010,0.469,Intermediate,784,0
+274,Concepts of Fiction Vol.2,Author 116,Fiction,General,6,6,2025,0.442,Intermediate,491,0
+275,Applied Fiction Vol.3,Author 122,Fiction,General,3,3,2018,0.273,Advanced,1079,0
+276,Fiction for Engineers Vol.1,Author 88,Fiction,General,2,2,2022,0.442,Intermediate,522,0
+277,Fundamentals of Fiction Vol.3,Author 64,Fiction,General,8,8,2013,0.451,Beginner,290,0
+278,Mastering Fiction Vol.2,Author 41,Fiction,General,6,6,2024,0.514,Advanced,1082,0
+279,Fiction: Theory and Practice Vol.2,Author 87,Fiction,General,4,4,2020,0.198,Intermediate,679,0
+280,Applied Fiction Vol.1,Author 85,Fiction,General,10,10,2018,0.056,Advanced,803,0
+281,Fundamentals of Fiction Vol.3,Author 65,Fiction,General,8,8,2020,0.02,Beginner,415,0
+282,Applied Fiction Vol.1,Author 37,Fiction,General,4,4,2010,0.442,Advanced,1068,0
+283,Fiction: Theory and Practice Vol.2,Author 22,Fiction,General,8,8,2020,0.256,Intermediate,536,0
+284,A Practical Guide to Fiction Vol.3,Author 135,Fiction,General,5,5,2018,0.12,Intermediate,535,0
+285,Fundamentals of Fiction Vol.3,Author 93,Fiction,General,8,8,2021,0.291,Beginner,530,0
+286,Introduction to Fiction Vol.2,Author 88,Fiction,General,4,4,2013,0.248,Beginner,379,0
+287,Mastering Fiction Vol.1,Author 20,Fiction,General,3,3,2012,0.273,Advanced,849,0
+288,A Practical Guide to Fiction Vol.1,Author 10,Fiction,General,6,6,2025,0.231,Intermediate,739,0
+289,Fiction: Theory and Practice Vol.3,Author 42,Fiction,General,3,3,2020,0.398,Intermediate,548,0
+290,Applied Finance Vol.1,Author 106,Finance,MBA,8,8,2022,0.123,Advanced,792,0
+291,Finance: Theory and Practice Vol.3,Author 73,Finance,MBA,8,8,2015,0.244,Intermediate,697,0
+292,Mastering Finance Vol.1,Author 121,Finance,MBA,6,6,2015,0.169,Advanced,928,0
+293,Finance Made Easy Vol.2,Author 73,Finance,MBA,8,8,2022,0.363,Beginner,506,0
+294,Concepts of Finance Vol.3,Author 52,Finance,MBA,6,6,2021,0.159,Intermediate,552,0
+295,Applied Finance Vol.1,Author 124,Finance,MBA,10,10,2016,0.098,Advanced,796,0
+296,Finance: Theory and Practice Vol.3,Author 73,Finance,MBA,2,2,2024,0.326,Intermediate,533,0
+297,Fundamentals of Finance Vol.1,Author 38,Finance,MBA,4,4,2022,0.307,Beginner,532,0
+298,Concepts of Finance Vol.1,Author 7,Finance,MBA,3,3,2022,0.077,Intermediate,648,0
+299,Concepts of Finance Vol.1,Author 61,Finance,MBA,5,5,2024,0.473,Intermediate,661,0
+300,Concepts of Finance Vol.1,Author 82,Finance,MBA,4,4,2015,0.316,Intermediate,484,0
+301,Fundamentals of Finance Vol.3,Author 36,Finance,MBA,8,8,2018,0.206,Beginner,344,0
+302,Introduction to Finance Vol.2,Author 121,Finance,MBA,10,10,2023,0.039,Beginner,341,0
+303,Mastering Finance Vol.3,Author 66,Finance,MBA,2,2,2010,0.417,Advanced,779,0
+304,Finance Made Easy Vol.1,Author 29,Finance,MBA,6,6,2024,0.305,Beginner,486,0
+305,A Practical Guide to Finance Vol.1,Author 62,Finance,MBA,4,4,2011,0.36,Intermediate,494,0
+306,Concepts of Finance Vol.3,Author 29,Finance,MBA,10,10,2022,0.32,Intermediate,502,0
+307,Mastering Finance Vol.3,Author 132,Finance,MBA,6,6,2008,0.06,Advanced,1093,0
+308,Applied Finance Vol.1,Author 110,Finance,MBA,8,8,2012,0.218,Advanced,919,0
+309,Introduction to Finance Vol.3,Author 107,Finance,MBA,4,4,2015,0.423,Beginner,562,0
+310,Advanced Finance Vol.3,Author 93,Finance,MBA,8,8,2010,0.086,Advanced,1038,0
+311,Fundamentals of Finance Vol.3,Author 142,Finance,MBA,6,6,2024,0.241,Beginner,529,0
+312,Concepts of Fluid Mechanics Vol.2,Author 65,Fluid Mechanics,Mechanical,2,2,2020,0.107,Intermediate,661,0
+313,Introduction to Fluid Mechanics Vol.2,Author 62,Fluid Mechanics,Mechanical,10,10,2010,0.394,Beginner,446,0
+314,Fundamentals of Fluid Mechanics Vol.3,Author 12,Fluid Mechanics,Mechanical,8,8,2018,0.256,Beginner,338,0
+315,Fluid Mechanics: Theory and Practice Vol.3,Author 123,Fluid Mechanics,Mechanical,4,4,2013,0.384,Intermediate,707,0
+316,Advanced Fluid Mechanics Vol.1,Author 76,Fluid Mechanics,Mechanical,2,2,2022,0.366,Advanced,788,0
+317,Fluid Mechanics Made Easy Vol.1,Author 81,Fluid Mechanics,Mechanical,10,10,2014,0.582,Beginner,291,0
+318,A Practical Guide to Fluid Mechanics Vol.3,Author 65,Fluid Mechanics,Mechanical,5,5,2025,0.562,Intermediate,712,0
+319,Introduction to Fluid Mechanics Vol.3,Author 13,Fluid Mechanics,Mechanical,3,3,2017,0.088,Beginner,452,0
+320,Fluid Mechanics: Theory and Practice Vol.2,Author 103,Fluid Mechanics,Mechanical,2,2,2019,0.345,Intermediate,693,0
+321,Mastering Fluid Mechanics Vol.2,Author 128,Fluid Mechanics,Mechanical,4,4,2013,0.61,Advanced,1024,0
+322,Fluid Mechanics: Theory and Practice Vol.3,Author 21,Fluid Mechanics,Mechanical,4,4,2010,0.314,Intermediate,687,0
+323,Concepts of Fluid Mechanics Vol.3,Author 76,Fluid Mechanics,Mechanical,10,10,2013,0.648,Intermediate,749,0
+324,Fluid Mechanics: Theory and Practice Vol.1,Author 79,Fluid Mechanics,Mechanical,2,2,2018,0.227,Intermediate,621,0
+325,Mastering Fluid Mechanics Vol.3,Author 114,Fluid Mechanics,Mechanical,8,8,2021,0.453,Advanced,855,0
+326,Fluid Mechanics: Theory and Practice Vol.2,Author 112,Fluid Mechanics,Mechanical,2,2,2019,0.6,Intermediate,784,0
+327,A Practical Guide to Fluid Mechanics Vol.3,Author 104,Fluid Mechanics,Mechanical,10,10,2009,0.136,Intermediate,508,0
+328,Fluid Mechanics: Theory and Practice Vol.3,Author 37,Fluid Mechanics,Mechanical,10,10,2013,0.236,Intermediate,485,0
+329,Applied Fluid Mechanics Vol.3,Author 33,Fluid Mechanics,Mechanical,10,10,2022,0.605,Advanced,787,0
+330,Fundamentals of Fluid Mechanics Vol.1,Author 99,Fluid Mechanics,Mechanical,10,10,2019,0.292,Beginner,455,0
+331,Applied Fluid Mechanics Vol.1,Author 95,Fluid Mechanics,Mechanical,6,6,2012,0.4,Advanced,1000,0
+332,Mastering General Science Vol.1,Author 94,General Science,General,6,6,2012,0.451,Advanced,1041,0
+333,Concepts of General Science Vol.2,Author 30,General Science,General,8,8,2016,0.185,Intermediate,597,0
+334,Introduction to General Science Vol.3,Author 100,General Science,General,3,3,2023,0.41,Beginner,535,0
+335,General Science for Engineers Vol.1,Author 55,General Science,General,4,4,2016,0.35,Intermediate,698,0
+336,Applied General Science Vol.2,Author 32,General Science,General,8,8,2023,0.176,Advanced,872,0
+337,Advanced General Science Vol.1,Author 23,General Science,General,5,5,2013,0.205,Advanced,997,0
+338,General Science: Theory and Practice Vol.3,Author 139,General Science,General,4,4,2010,0.609,Intermediate,751,0
+339,A Practical Guide to General Science Vol.2,Author 45,General Science,General,10,10,2013,0.142,Intermediate,796,0
+340,General Science: Theory and Practice Vol.3,Author 36,General Science,General,3,3,2011,0.436,Intermediate,572,0
+341,General Science Made Easy Vol.2,Author 147,General Science,General,2,2,2019,0.308,Beginner,553,0
+342,General Science: Theory and Practice Vol.2,Author 23,General Science,General,10,10,2025,0.455,Intermediate,536,0
+343,Fundamentals of General Science Vol.2,Author 106,General Science,General,5,5,2023,0.428,Beginner,539,0
+344,Concepts of General Science Vol.3,Author 19,General Science,General,2,2,2012,0.278,Intermediate,632,0
+345,Mastering General Science Vol.2,Author 33,General Science,General,8,8,2024,0.185,Advanced,946,0
+346,General Science for Engineers Vol.3,Author 111,General Science,General,6,6,2013,0.555,Intermediate,536,0
+347,General Science for Engineers Vol.1,Author 40,General Science,General,10,10,2011,0.503,Intermediate,735,0
+348,A Practical Guide to General Science Vol.1,Author 89,General Science,General,3,3,2018,0.322,Intermediate,585,0
+349,General Science for Engineers Vol.2,Author 51,General Science,General,10,10,2010,0.294,Intermediate,598,0
+350,General Science for Engineers Vol.2,Author 137,General Science,General,3,3,2017,0.125,Intermediate,784,0
+351,Fundamentals of General Science Vol.3,Author 149,General Science,General,8,8,2013,0.444,Beginner,573,0
+352,Advanced General Science Vol.1,Author 11,General Science,General,8,8,2018,0.576,Advanced,1058,0
+353,Introduction to General Science Vol.1,Author 147,General Science,General,2,2,2016,0.124,Beginner,377,0
+354,Concepts of General Science Vol.3,Author 140,General Science,General,8,8,2008,0.142,Intermediate,724,0
+355,A Practical Guide to General Science Vol.3,Author 104,General Science,General,4,4,2023,0.187,Intermediate,595,0
+356,A Practical Guide to General Science Vol.2,Author 113,General Science,General,2,2,2009,0.191,Intermediate,550,0
+357,Mastering Genetics Vol.2,Author 37,Genetics,Biotechnology,3,3,2018,0.275,Advanced,1080,0
+358,Genetics: Theory and Practice Vol.3,Author 34,Genetics,Biotechnology,4,4,2019,0.259,Intermediate,674,0
+359,Genetics: Theory and Practice Vol.3,Author 62,Genetics,Biotechnology,6,6,2011,0.116,Intermediate,633,0
+360,Mastering Genetics Vol.1,Author 37,Genetics,Biotechnology,4,4,2022,0.588,Advanced,896,0
+361,Fundamentals of Genetics Vol.1,Author 108,Genetics,Biotechnology,4,4,2020,0.142,Beginner,585,0
+362,Genetics Made Easy Vol.1,Author 81,Genetics,Biotechnology,10,10,2018,0.267,Beginner,565,0
+363,Genetics Made Easy Vol.1,Author 128,Genetics,Biotechnology,5,5,2024,0.169,Beginner,509,0
+364,A Practical Guide to Genetics Vol.2,Author 130,Genetics,Biotechnology,2,2,2010,0.505,Intermediate,671,0
+365,Mastering Genetics Vol.1,Author 13,Genetics,Biotechnology,3,3,2019,0.215,Advanced,794,0
+366,A Practical Guide to Genetics Vol.2,Author 138,Genetics,Biotechnology,6,6,2023,0.303,Intermediate,616,0
+367,Introduction to Genetics Vol.1,Author 94,Genetics,Biotechnology,5,5,2012,0.604,Beginner,405,0
+368,Concepts of Genetics Vol.2,Author 146,Genetics,Biotechnology,2,2,2020,0.226,Intermediate,496,0
+369,Genetics for Engineers Vol.1,Author 19,Genetics,Biotechnology,4,4,2025,0.33,Intermediate,617,0
+370,Concepts of Genetics Vol.3,Author 31,Genetics,Biotechnology,5,5,2025,0.155,Intermediate,613,0
+371,Advanced Genetics Vol.1,Author 143,Genetics,Biotechnology,5,5,2019,0.264,Advanced,943,0
+372,Genetics: Theory and Practice Vol.1,Author 129,Genetics,Biotechnology,3,3,2024,0.387,Intermediate,675,0
+373,Introduction to Genetics Vol.1,Author 122,Genetics,Biotechnology,2,2,2012,0.122,Beginner,440,0
+374,Genetics for Engineers Vol.2,Author 84,Genetics,Biotechnology,3,3,2024,0.231,Intermediate,541,0
+375,Applied Genetics Vol.2,Author 77,Genetics,Biotechnology,3,3,2020,0.337,Advanced,1085,0
+376,Applied Genetics Vol.2,Author 126,Genetics,Biotechnology,6,6,2024,0.072,Advanced,1042,0
+377,Applied Genetics Vol.2,Author 85,Genetics,Biotechnology,5,5,2008,0.378,Advanced,958,0
+378,Fundamentals of Genetics Vol.2,Author 7,Genetics,Biotechnology,6,6,2017,0.319,Beginner,592,0
+379,Applied Genetics Vol.2,Author 150,Genetics,Biotechnology,4,4,2015,0.197,Advanced,796,0
+380,Mastering Genetics Vol.1,Author 63,Genetics,Biotechnology,6,6,2020,0.287,Advanced,845,0
+381,Introduction to Genetics Vol.3,Author 5,Genetics,Biotechnology,8,8,2011,0.601,Beginner,367,0
+382,Mastering Genetics Vol.2,Author 53,Genetics,Biotechnology,5,5,2012,0.097,Advanced,981,0
+383,Geotechnical for Engineers Vol.3,Author 133,Geotechnical,Civil,5,5,2009,0.275,Intermediate,540,0
+384,Geotechnical Made Easy Vol.3,Author 97,Geotechnical,Civil,4,4,2023,0.505,Beginner,539,0
+385,Geotechnical: Theory and Practice Vol.1,Author 140,Geotechnical,Civil,5,5,2025,0.16,Intermediate,645,0
+386,Geotechnical: Theory and Practice Vol.3,Author 124,Geotechnical,Civil,10,10,2016,0.214,Intermediate,782,0
+387,Geotechnical Made Easy Vol.1,Author 58,Geotechnical,Civil,4,4,2025,0.463,Beginner,422,0
+388,A Practical Guide to Geotechnical Vol.2,Author 82,Geotechnical,Civil,8,8,2014,0.278,Intermediate,720,0
+389,Mastering Geotechnical Vol.2,Author 32,Geotechnical,Civil,6,6,2016,0.185,Advanced,917,0
+390,Applied Geotechnical Vol.3,Author 89,Geotechnical,Civil,6,6,2020,0.115,Advanced,972,0
+391,Advanced Geotechnical Vol.2,Author 89,Geotechnical,Civil,2,2,2017,0.423,Advanced,810,0
+392,Mastering Geotechnical Vol.3,Author 52,Geotechnical,Civil,4,4,2023,0.644,Advanced,879,0
+393,Geotechnical for Engineers Vol.2,Author 28,Geotechnical,Civil,6,6,2016,0.308,Intermediate,540,0
+394,Applied Geotechnical Vol.3,Author 13,Geotechnical,Civil,6,6,2015,0.411,Advanced,894,0
+395,Geotechnical for Engineers Vol.1,Author 26,Geotechnical,Civil,8,8,2015,0.196,Intermediate,496,0
+396,Concepts of Geotechnical Vol.2,Author 36,Geotechnical,Civil,8,8,2023,0.139,Intermediate,521,0
+397,Introduction to Geotechnical Vol.3,Author 123,Geotechnical,Civil,3,3,2021,0.099,Beginner,513,0
+398,Geotechnical Made Easy Vol.2,Author 16,Geotechnical,Civil,4,4,2017,0.367,Beginner,600,0
+399,Fundamentals of Geotechnical Vol.3,Author 10,Geotechnical,Civil,6,6,2015,0.507,Beginner,543,0
+400,Advanced Geotechnical Vol.2,Author 102,Geotechnical,Civil,10,10,2013,0.236,Advanced,788,0
+401,Mastering Geotechnical Vol.1,Author 3,Geotechnical,Civil,8,8,2017,0.406,Advanced,789,0
+402,A Practical Guide to Geotechnical Vol.3,Author 73,Geotechnical,Civil,6,6,2011,0.265,Intermediate,641,0
+403,Mastering Geotechnical Vol.3,Author 35,Geotechnical,Civil,6,6,2024,0.381,Advanced,1022,0
+404,Geotechnical for Engineers Vol.2,Author 85,Geotechnical,Civil,4,4,2014,0.225,Intermediate,527,0
+405,Advanced Geotechnical Vol.3,Author 4,Geotechnical,Civil,5,5,2016,0.045,Advanced,865,0
+406,Geotechnical: Theory and Practice Vol.2,Author 104,Geotechnical,Civil,6,6,2014,0.164,Intermediate,559,0
+407,Concepts of Geotechnical Vol.3,Author 25,Geotechnical,Civil,4,4,2010,0.191,Intermediate,675,0
+408,Advanced Geotechnical Vol.1,Author 2,Geotechnical,Civil,5,5,2018,0.262,Advanced,897,0
+409,Concepts of HR Vol.1,Author 78,HR,MBA,5,5,2016,0.356,Intermediate,638,0
+410,Applied HR Vol.3,Author 93,HR,MBA,6,6,2008,0.081,Advanced,903,0
+411,HR Made Easy Vol.1,Author 79,HR,MBA,8,8,2011,0.108,Beginner,508,0
+412,Advanced HR Vol.2,Author 31,HR,MBA,8,8,2024,0.246,Advanced,929,0
+413,A Practical Guide to HR Vol.2,Author 35,HR,MBA,6,6,2015,0.545,Intermediate,582,0
+414,Mastering HR Vol.1,Author 141,HR,MBA,5,5,2019,0.336,Advanced,982,0
+415,Mastering HR Vol.3,Author 21,HR,MBA,10,10,2014,0.112,Advanced,896,0
+416,HR for Engineers Vol.2,Author 145,HR,MBA,6,6,2019,0.079,Intermediate,509,0
+417,Fundamentals of HR Vol.1,Author 52,HR,MBA,10,10,2025,0.223,Beginner,528,0
+418,Applied HR Vol.3,Author 134,HR,MBA,3,3,2013,0.239,Advanced,937,0
+419,Mastering HR Vol.1,Author 126,HR,MBA,8,8,2014,0.469,Advanced,1068,0
+420,Fundamentals of HR Vol.3,Author 34,HR,MBA,5,5,2009,0.109,Beginner,502,0
+421,HR for Engineers Vol.2,Author 119,HR,MBA,5,5,2009,0.351,Intermediate,756,0
+422,A Practical Guide to HR Vol.3,Author 1,HR,MBA,2,2,2020,0.115,Intermediate,600,0
+423,HR Made Easy Vol.3,Author 89,HR,MBA,2,2,2009,0.521,Beginner,486,0
+424,Fundamentals of HR Vol.3,Author 9,HR,MBA,2,2,2010,0.463,Beginner,511,0
+425,A Practical Guide to HR Vol.2,Author 108,HR,MBA,3,3,2012,0.446,Intermediate,798,0
+426,HR: Theory and Practice Vol.2,Author 21,HR,MBA,5,5,2020,0.451,Intermediate,662,0
+427,HR for Engineers Vol.1,Author 46,HR,MBA,8,8,2019,0.208,Intermediate,530,0
+428,HR for Engineers Vol.2,Author 1,HR,MBA,6,6,2012,0.553,Intermediate,584,0
+429,Introduction to HR Vol.2,Author 137,HR,MBA,5,5,2025,0.241,Beginner,487,0
+430,Concepts of HR Vol.1,Author 40,HR,MBA,3,3,2022,0.352,Intermediate,647,0
+431,A Practical Guide to HR Vol.1,Author 108,HR,MBA,8,8,2011,0.562,Intermediate,486,0
+432,Applied HR Vol.1,Author 26,HR,MBA,3,3,2014,0.066,Advanced,804,0
+433,Introduction to Machines Vol.2,Author 12,Machines,Electrical,6,6,2009,0.478,Beginner,395,0
+434,Concepts of Machines Vol.2,Author 15,Machines,Electrical,3,3,2025,0.362,Intermediate,581,0
+435,Advanced Machines Vol.3,Author 82,Machines,Electrical,4,4,2015,0.402,Advanced,1064,0
+436,Applied Machines Vol.3,Author 78,Machines,Electrical,10,10,2018,0.145,Advanced,891,0
+437,Advanced Machines Vol.3,Author 77,Machines,Electrical,6,6,2015,0.149,Advanced,981,0
+438,A Practical Guide to Machines Vol.1,Author 110,Machines,Electrical,6,6,2013,0.267,Intermediate,790,0
+439,Machines for Engineers Vol.2,Author 98,Machines,Electrical,2,2,2019,0.267,Intermediate,799,0
+440,Machines for Engineers Vol.2,Author 39,Machines,Electrical,8,8,2021,0.202,Intermediate,679,0
+441,A Practical Guide to Machines Vol.2,Author 62,Machines,Electrical,3,3,2025,0.519,Intermediate,712,0
+442,Machines Made Easy Vol.2,Author 15,Machines,Electrical,10,10,2012,0.02,Beginner,507,0
+443,Machines for Engineers Vol.2,Author 35,Machines,Electrical,5,5,2025,0.23,Intermediate,741,0
+444,Concepts of Machines Vol.1,Author 21,Machines,Electrical,4,4,2014,0.089,Intermediate,639,0
+445,Mastering Machines Vol.2,Author 14,Machines,Electrical,2,2,2025,0.544,Advanced,867,0
+446,A Practical Guide to Machines Vol.2,Author 49,Machines,Electrical,8,8,2009,0.338,Intermediate,507,0
+447,Applied Machines Vol.3,Author 123,Machines,Electrical,8,8,2025,0.221,Advanced,881,0
+448,Machines Made Easy Vol.2,Author 49,Machines,Electrical,4,4,2008,0.122,Beginner,378,0
+449,Fundamentals of Machines Vol.3,Author 53,Machines,Electrical,10,10,2023,0.327,Beginner,394,0
+450,Concepts of Machines Vol.1,Author 98,Machines,Electrical,6,6,2018,0.1,Intermediate,614,0
+451,Mastering Machines Vol.3,Author 67,Machines,Electrical,8,8,2019,0.338,Advanced,927,0
+452,Machines: Theory and Practice Vol.3,Author 121,Machines,Electrical,5,5,2022,0.583,Intermediate,520,0
+453,Machines: Theory and Practice Vol.1,Author 12,Machines,Electrical,4,4,2018,0.549,Intermediate,681,0
+454,Applied Machines Vol.1,Author 67,Machines,Electrical,8,8,2012,0.144,Advanced,778,0
+455,Machines for Engineers Vol.3,Author 40,Machines,Electrical,6,6,2021,0.54,Intermediate,621,0
+456,Machines Made Easy Vol.2,Author 63,Machines,Electrical,3,3,2020,0.049,Beginner,561,0
+457,Mastering Machines Vol.3,Author 126,Machines,Electrical,8,8,2018,0.227,Advanced,901,0
+458,Mastering Machines Vol.2,Author 36,Machines,Electrical,3,3,2019,0.151,Advanced,856,0
+459,Machines for Engineers Vol.2,Author 16,Machines,Electrical,3,3,2025,0.04,Intermediate,798,0
+460,Machines for Engineers Vol.1,Author 2,Machines,Electrical,10,10,2010,0.42,Intermediate,494,0
+461,Concepts of Machines Vol.1,Author 39,Machines,Electrical,10,10,2015,0.47,Intermediate,504,0
+462,Manufacturing Made Easy Vol.3,Author 124,Manufacturing,Mechanical,5,5,2019,0.459,Beginner,300,0
+463,Mastering Manufacturing Vol.1,Author 106,Manufacturing,Mechanical,2,2,2025,0.293,Advanced,1052,0
+464,Introduction to Manufacturing Vol.1,Author 74,Manufacturing,Mechanical,6,6,2016,0.325,Beginner,544,0
+465,Introduction to Manufacturing Vol.3,Author 28,Manufacturing,Mechanical,10,10,2021,0.608,Beginner,361,0
+466,Fundamentals of Manufacturing Vol.3,Author 135,Manufacturing,Mechanical,3,3,2015,0.228,Beginner,368,0
+467,A Practical Guide to Manufacturing Vol.2,Author 96,Manufacturing,Mechanical,4,4,2020,0.329,Intermediate,510,0
+468,Concepts of Manufacturing Vol.2,Author 77,Manufacturing,Mechanical,6,6,2015,0.189,Intermediate,585,0
+469,Fundamentals of Manufacturing Vol.3,Author 104,Manufacturing,Mechanical,10,10,2009,0.476,Beginner,317,0
+470,Concepts of Manufacturing Vol.2,Author 3,Manufacturing,Mechanical,6,6,2023,0.462,Intermediate,498,0
+471,Advanced Manufacturing Vol.1,Author 85,Manufacturing,Mechanical,5,5,2021,0.336,Advanced,1100,0
+472,Applied Manufacturing Vol.1,Author 55,Manufacturing,Mechanical,6,6,2009,0.291,Advanced,887,0
+473,Applied Manufacturing Vol.2,Author 72,Manufacturing,Mechanical,4,4,2009,0.301,Advanced,808,0
+474,Manufacturing for Engineers Vol.3,Author 81,Manufacturing,Mechanical,8,8,2009,0.327,Intermediate,561,0
+475,Introduction to Manufacturing Vol.1,Author 20,Manufacturing,Mechanical,6,6,2012,0.068,Beginner,473,0
+476,A Practical Guide to Manufacturing Vol.1,Author 100,Manufacturing,Mechanical,6,6,2015,0.333,Intermediate,760,0
+477,Manufacturing for Engineers Vol.2,Author 129,Manufacturing,Mechanical,5,5,2012,0.569,Intermediate,510,0
+478,Manufacturing: Theory and Practice Vol.1,Author 20,Manufacturing,Mechanical,2,2,2021,0.169,Intermediate,588,0
+479,Manufacturing: Theory and Practice Vol.3,Author 8,Manufacturing,Mechanical,10,10,2020,0.323,Intermediate,637,0
+480,A Practical Guide to Manufacturing Vol.2,Author 142,Manufacturing,Mechanical,5,5,2015,0.26,Intermediate,652,0
+481,Concepts of Manufacturing Vol.2,Author 76,Manufacturing,Mechanical,3,3,2020,0.211,Intermediate,513,0
+482,Fundamentals of Marketing Vol.1,Author 40,Marketing,MBA,4,4,2012,0.445,Beginner,464,0
+483,Concepts of Marketing Vol.2,Author 2,Marketing,MBA,4,4,2011,0.193,Intermediate,516,0
+484,A Practical Guide to Marketing Vol.2,Author 34,Marketing,MBA,4,4,2016,0.422,Intermediate,522,0
+485,Fundamentals of Marketing Vol.1,Author 143,Marketing,MBA,5,5,2022,0.315,Beginner,555,0
+486,Marketing for Engineers Vol.2,Author 91,Marketing,MBA,2,2,2008,0.089,Intermediate,515,0
+487,Marketing for Engineers Vol.1,Author 4,Marketing,MBA,6,6,2018,0.181,Intermediate,667,0
+488,A Practical Guide to Marketing Vol.2,Author 63,Marketing,MBA,5,5,2010,0.289,Intermediate,756,0
+489,Applied Marketing Vol.3,Author 36,Marketing,MBA,3,3,2020,0.191,Advanced,856,0
+490,A Practical Guide to Marketing Vol.2,Author 17,Marketing,MBA,4,4,2023,0.255,Intermediate,544,0
+491,Advanced Marketing Vol.2,Author 124,Marketing,MBA,4,4,2021,0.263,Advanced,923,0
+492,Fundamentals of Marketing Vol.2,Author 127,Marketing,MBA,4,4,2015,0.187,Beginner,590,0
+493,Applied Marketing Vol.3,Author 35,Marketing,MBA,3,3,2022,0.124,Advanced,824,0
+494,A Practical Guide to Marketing Vol.1,Author 98,Marketing,MBA,5,5,2018,0.359,Intermediate,787,0
+495,Marketing: Theory and Practice Vol.2,Author 35,Marketing,MBA,4,4,2021,0.02,Intermediate,774,0
+496,A Practical Guide to Marketing Vol.2,Author 81,Marketing,MBA,6,6,2014,0.225,Intermediate,715,0
+497,Advanced Marketing Vol.2,Author 126,Marketing,MBA,4,4,2017,0.368,Advanced,1094,0
+498,Applied Marketing Vol.1,Author 101,Marketing,MBA,4,4,2020,0.47,Advanced,913,0
+499,Marketing: Theory and Practice Vol.1,Author 140,Marketing,MBA,6,6,2014,0.233,Intermediate,773,0
+500,Advanced Marketing Vol.3,Author 119,Marketing,MBA,10,10,2025,0.605,Advanced,783,0
+501,Marketing Made Easy Vol.2,Author 105,Marketing,MBA,10,10,2017,0.112,Beginner,305,0
+502,Mastering Marketing Vol.1,Author 65,Marketing,MBA,8,8,2017,0.292,Advanced,893,0
+503,Advanced Marketing Vol.3,Author 115,Marketing,MBA,5,5,2020,0.244,Advanced,807,0
+504,Applied Marketing Vol.2,Author 130,Marketing,MBA,6,6,2020,0.091,Advanced,1043,0
+505,Microbiology for Engineers Vol.1,Author 22,Microbiology,Biotechnology,10,10,2019,0.342,Intermediate,744,0
+506,Fundamentals of Microbiology Vol.1,Author 12,Microbiology,Biotechnology,8,8,2019,0.261,Beginner,355,0
+507,Applied Microbiology Vol.3,Author 111,Microbiology,Biotechnology,8,8,2020,0.105,Advanced,939,0
+508,Fundamentals of Microbiology Vol.1,Author 131,Microbiology,Biotechnology,2,2,2016,0.339,Beginner,383,0
+509,Microbiology for Engineers Vol.3,Author 96,Microbiology,Biotechnology,6,6,2015,0.067,Intermediate,698,0
+510,Concepts of Microbiology Vol.2,Author 89,Microbiology,Biotechnology,10,10,2024,0.395,Intermediate,547,0
+511,Introduction to Microbiology Vol.2,Author 22,Microbiology,Biotechnology,2,2,2017,0.17,Beginner,482,0
+512,Fundamentals of Microbiology Vol.3,Author 88,Microbiology,Biotechnology,3,3,2019,0.691,Beginner,429,0
+513,Mastering Microbiology Vol.1,Author 122,Microbiology,Biotechnology,6,6,2023,0.17,Advanced,948,0
+514,Fundamentals of Microbiology Vol.2,Author 18,Microbiology,Biotechnology,8,8,2022,0.26,Beginner,433,0
+515,A Practical Guide to Microbiology Vol.1,Author 88,Microbiology,Biotechnology,10,10,2011,0.341,Intermediate,481,0
+516,Fundamentals of Microbiology Vol.3,Author 133,Microbiology,Biotechnology,10,10,2013,0.194,Beginner,394,0
+517,Advanced Microbiology Vol.3,Author 110,Microbiology,Biotechnology,3,3,2018,0.442,Advanced,1056,0
+518,Mastering Microbiology Vol.1,Author 48,Microbiology,Biotechnology,10,10,2020,0.292,Advanced,1092,0
+519,Advanced Microbiology Vol.3,Author 8,Microbiology,Biotechnology,8,8,2021,0.043,Advanced,972,0
+520,Applied Microbiology Vol.1,Author 2,Microbiology,Biotechnology,5,5,2021,0.085,Advanced,969,0
+521,Microbiology Made Easy Vol.1,Author 27,Microbiology,Biotechnology,4,4,2010,0.474,Beginner,565,0
+522,Microbiology for Engineers Vol.1,Author 118,Microbiology,Biotechnology,4,4,2018,0.274,Intermediate,570,0
+523,Fundamentals of Microbiology Vol.2,Author 81,Microbiology,Biotechnology,8,8,2023,0.237,Beginner,540,0
+524,Applied Microbiology Vol.2,Author 30,Microbiology,Biotechnology,6,6,2020,0.267,Advanced,1070,0
+525,Microbiology: Theory and Practice Vol.2,Author 45,Microbiology,Biotechnology,10,10,2022,0.103,Intermediate,786,0
+526,A Practical Guide to Microbiology Vol.3,Author 81,Microbiology,Biotechnology,6,6,2010,0.228,Intermediate,538,0
+527,Fundamentals of Microbiology Vol.1,Author 96,Microbiology,Biotechnology,4,4,2011,0.263,Beginner,363,0
+528,Advanced Microbiology Vol.3,Author 36,Microbiology,Biotechnology,5,5,2021,0.689,Advanced,1075,0
+529,Applied Microbiology Vol.2,Author 138,Microbiology,Biotechnology,5,5,2013,0.251,Advanced,1019,0
+530,Advanced Microbiology Vol.3,Author 36,Microbiology,Biotechnology,3,3,2023,0.245,Advanced,917,0
+531,Networks: Theory and Practice Vol.2,Author 3,Networks,Computer Science,6,6,2009,0.277,Intermediate,653,0
+532,Mastering Networks Vol.1,Author 130,Networks,Computer Science,3,3,2020,0.272,Advanced,1057,0
+533,Mastering Networks Vol.2,Author 114,Networks,Computer Science,8,8,2023,0.23,Advanced,982,0
+534,Mastering Networks Vol.1,Author 75,Networks,Computer Science,2,2,2008,0.426,Advanced,882,0
+535,Introduction to Networks Vol.2,Author 44,Networks,Computer Science,3,3,2025,0.223,Beginner,417,0
+536,Mastering Networks Vol.3,Author 131,Networks,Computer Science,8,8,2023,0.477,Advanced,1051,0
+537,Fundamentals of Networks Vol.3,Author 94,Networks,Computer Science,2,2,2016,0.231,Beginner,548,0
+538,Networks for Engineers Vol.1,Author 56,Networks,Computer Science,10,10,2022,0.431,Intermediate,749,0
+539,Concepts of Networks Vol.1,Author 9,Networks,Computer Science,8,8,2015,0.387,Intermediate,622,0
+540,Mastering Networks Vol.2,Author 31,Networks,Computer Science,4,4,2010,0.209,Advanced,994,0
+541,Networks Made Easy Vol.1,Author 110,Networks,Computer Science,10,10,2019,0.09,Beginner,582,0
+542,Advanced Networks Vol.3,Author 16,Networks,Computer Science,3,3,2014,0.604,Advanced,875,0
+543,Applied Networks Vol.2,Author 138,Networks,Computer Science,6,6,2016,0.227,Advanced,1075,0
+544,Advanced Networks Vol.2,Author 147,Networks,Computer Science,8,8,2017,0.304,Advanced,918,0
+545,A Practical Guide to Networks Vol.3,Author 106,Networks,Computer Science,8,8,2011,0.165,Intermediate,539,0
+546,Introduction to Networks Vol.2,Author 64,Networks,Computer Science,10,10,2012,0.182,Beginner,337,0
+547,Advanced Networks Vol.3,Author 126,Networks,Computer Science,4,4,2015,0.477,Advanced,971,0
+548,Advanced Networks Vol.3,Author 107,Networks,Computer Science,8,8,2016,0.526,Advanced,1091,0
+549,Concepts of Networks Vol.2,Author 132,Networks,Computer Science,2,2,2010,0.361,Intermediate,676,0
+550,A Practical Guide to Networks Vol.3,Author 84,Networks,Computer Science,4,4,2022,0.251,Intermediate,719,0
+551,Applied Networks Vol.1,Author 92,Networks,Computer Science,10,10,2010,0.384,Advanced,1004,0
+552,Fundamentals of Networks Vol.3,Author 55,Networks,Computer Science,5,5,2014,0.196,Beginner,489,0
+553,A Practical Guide to Operations Vol.2,Author 141,Operations,MBA,10,10,2017,0.298,Intermediate,642,0
+554,Applied Operations Vol.1,Author 13,Operations,MBA,6,6,2023,0.132,Advanced,945,0
+555,Introduction to Operations Vol.1,Author 32,Operations,MBA,8,8,2022,0.126,Beginner,278,0
+556,Advanced Operations Vol.2,Author 52,Operations,MBA,5,5,2008,0.355,Advanced,989,0
+557,Advanced Operations Vol.3,Author 24,Operations,MBA,4,4,2013,0.322,Advanced,910,0
+558,Operations: Theory and Practice Vol.2,Author 14,Operations,MBA,2,2,2019,0.311,Intermediate,554,0
+559,Concepts of Operations Vol.3,Author 24,Operations,MBA,4,4,2015,0.227,Intermediate,689,0
+560,Fundamentals of Operations Vol.1,Author 34,Operations,MBA,3,3,2023,0.312,Beginner,309,0
+561,Applied Operations Vol.1,Author 3,Operations,MBA,6,6,2022,0.172,Advanced,774,0
+562,Operations: Theory and Practice Vol.1,Author 123,Operations,MBA,10,10,2021,0.041,Intermediate,537,0
+563,Fundamentals of Operations Vol.1,Author 27,Operations,MBA,5,5,2010,0.276,Beginner,322,0
+564,Operations: Theory and Practice Vol.2,Author 35,Operations,MBA,4,4,2012,0.094,Intermediate,665,0
+565,Advanced Operations Vol.1,Author 43,Operations,MBA,6,6,2008,0.412,Advanced,1082,0
+566,Mastering Operations Vol.2,Author 39,Operations,MBA,8,8,2014,0.516,Advanced,1091,0
+567,Concepts of Operations Vol.3,Author 23,Operations,MBA,8,8,2022,0.634,Intermediate,581,0
+568,Fundamentals of Operations Vol.1,Author 99,Operations,MBA,10,10,2011,0.272,Beginner,571,0
+569,Operations: Theory and Practice Vol.2,Author 71,Operations,MBA,4,4,2012,0.161,Intermediate,596,0
+570,Fundamentals of Operations Vol.1,Author 78,Operations,MBA,6,6,2017,0.302,Beginner,283,0
+571,Operations Made Easy Vol.3,Author 101,Operations,MBA,6,6,2024,0.247,Beginner,366,0
+572,A Practical Guide to Operations Vol.3,Author 99,Operations,MBA,2,2,2015,0.277,Intermediate,723,0
+573,Fundamentals of Operations Vol.1,Author 4,Operations,MBA,5,5,2010,0.472,Beginner,540,0
+574,Operations: Theory and Practice Vol.2,Author 108,Operations,MBA,3,3,2020,0.219,Intermediate,761,0
+575,Operations: Theory and Practice Vol.3,Author 19,Operations,MBA,8,8,2013,0.251,Intermediate,711,0
+576,Introduction to Operations Vol.3,Author 56,Operations,MBA,2,2,2008,0.134,Beginner,404,0
+577,Introduction to Operations Vol.1,Author 74,Operations,MBA,10,10,2020,0.258,Beginner,529,0
+578,Operations for Engineers Vol.2,Author 138,Operations,MBA,5,5,2020,0.576,Intermediate,512,0
+579,Operations for Engineers Vol.3,Author 80,Operations,MBA,3,3,2016,0.175,Intermediate,512,0
+580,Power Systems for Engineers Vol.1,Author 84,Power Systems,Electrical,10,10,2012,0.44,Intermediate,744,0
+581,Concepts of Power Systems Vol.3,Author 112,Power Systems,Electrical,8,8,2010,0.24,Intermediate,628,0
+582,Power Systems Made Easy Vol.1,Author 30,Power Systems,Electrical,3,3,2010,0.446,Beginner,492,0
+583,Mastering Power Systems Vol.3,Author 45,Power Systems,Electrical,6,6,2009,0.418,Advanced,928,0
+584,Fundamentals of Power Systems Vol.1,Author 42,Power Systems,Electrical,8,8,2012,0.125,Beginner,275,0
+585,Mastering Power Systems Vol.2,Author 43,Power Systems,Electrical,6,6,2024,0.414,Advanced,902,0
+586,Power Systems: Theory and Practice Vol.1,Author 8,Power Systems,Electrical,8,8,2016,0.086,Intermediate,530,0
+587,Power Systems: Theory and Practice Vol.2,Author 68,Power Systems,Electrical,4,4,2024,0.102,Intermediate,502,0
+588,Applied Power Systems Vol.3,Author 131,Power Systems,Electrical,2,2,2023,0.229,Advanced,1003,0
+589,Power Systems: Theory and Practice Vol.1,Author 41,Power Systems,Electrical,5,5,2013,0.547,Intermediate,658,0
+590,A Practical Guide to Power Systems Vol.1,Author 131,Power Systems,Electrical,6,6,2011,0.351,Intermediate,586,0
+591,Introduction to Power Systems Vol.1,Author 12,Power Systems,Electrical,10,10,2008,0.139,Beginner,395,0
+592,Mastering Power Systems Vol.2,Author 10,Power Systems,Electrical,5,5,2012,0.054,Advanced,861,0
+593,Power Systems for Engineers Vol.3,Author 83,Power Systems,Electrical,8,8,2021,0.381,Intermediate,584,0
+594,Power Systems Made Easy Vol.2,Author 20,Power Systems,Electrical,8,8,2018,0.279,Beginner,408,0
+595,Applied Power Systems Vol.2,Author 46,Power Systems,Electrical,2,2,2024,0.307,Advanced,796,0
+596,Power Systems Made Easy Vol.3,Author 120,Power Systems,Electrical,2,2,2020,0.343,Beginner,305,0
+597,A Practical Guide to Power Systems Vol.2,Author 117,Power Systems,Electrical,4,4,2010,0.476,Intermediate,753,0
+598,Introduction to Power Systems Vol.2,Author 78,Power Systems,Electrical,3,3,2017,0.255,Beginner,558,0
+599,Applied Power Systems Vol.1,Author 127,Power Systems,Electrical,5,5,2019,0.501,Advanced,1072,0
+600,Power Systems Made Easy Vol.3,Author 2,Power Systems,Electrical,6,6,2015,0.154,Beginner,347,0
+601,Introduction to Programming Vol.1,Author 3,Programming,Computer Science,6,6,2019,0.063,Beginner,595,0
+602,Programming: Theory and Practice Vol.1,Author 27,Programming,Computer Science,10,10,2020,0.448,Intermediate,627,0
+603,Programming Made Easy Vol.3,Author 16,Programming,Computer Science,3,3,2021,0.11,Beginner,521,0
+604,Advanced Programming Vol.3,Author 60,Programming,Computer Science,4,4,2010,0.3,Advanced,792,0
+605,Programming for Engineers Vol.2,Author 22,Programming,Computer Science,8,8,2019,0.536,Intermediate,704,0
+606,Applied Programming Vol.1,Author 101,Programming,Computer Science,6,6,2012,0.067,Advanced,1096,0
+607,Fundamentals of Programming Vol.3,Author 34,Programming,Computer Science,6,6,2009,0.337,Beginner,492,0
+608,Programming Made Easy Vol.2,Author 84,Programming,Computer Science,4,4,2018,0.062,Beginner,471,0
+609,Programming: Theory and Practice Vol.2,Author 52,Programming,Computer Science,4,4,2015,0.267,Intermediate,508,0
+610,Advanced Programming Vol.3,Author 43,Programming,Computer Science,2,2,2012,0.02,Advanced,824,0
+611,Mastering Programming Vol.2,Author 138,Programming,Computer Science,4,4,2021,0.093,Advanced,831,0
+612,Programming: Theory and Practice Vol.1,Author 68,Programming,Computer Science,5,5,2017,0.162,Intermediate,707,0
+613,Fundamentals of Programming Vol.1,Author 11,Programming,Computer Science,3,3,2017,0.056,Beginner,578,0
+614,Programming Made Easy Vol.2,Author 92,Programming,Computer Science,3,3,2010,0.363,Beginner,397,0
+615,Concepts of Programming Vol.3,Author 45,Programming,Computer Science,2,2,2017,0.326,Intermediate,603,0
+616,Introduction to Programming Vol.2,Author 141,Programming,Computer Science,10,10,2022,0.552,Beginner,554,0
+617,Programming Made Easy Vol.1,Author 32,Programming,Computer Science,5,5,2011,0.11,Beginner,341,0
+618,Introduction to Programming Vol.1,Author 51,Programming,Computer Science,10,10,2015,0.217,Beginner,336,0
+619,Concepts of Programming Vol.2,Author 67,Programming,Computer Science,8,8,2010,0.078,Intermediate,768,0
+620,Fundamentals of Programming Vol.1,Author 114,Programming,Computer Science,2,2,2014,0.177,Beginner,600,0
+621,Advanced Programming Vol.1,Author 11,Programming,Computer Science,10,10,2018,0.595,Advanced,832,0
+622,Mastering Programming Vol.1,Author 128,Programming,Computer Science,3,3,2021,0.397,Advanced,972,0
+623,Introduction to Programming Vol.2,Author 91,Programming,Computer Science,8,8,2021,0.106,Beginner,358,0
+624,Programming Made Easy Vol.1,Author 39,Programming,Computer Science,4,4,2016,0.031,Beginner,498,0
+625,Introduction to Programming Vol.3,Author 128,Programming,Computer Science,6,6,2015,0.028,Beginner,421,0
+626,Concepts of Programming Vol.3,Author 72,Programming,Computer Science,5,5,2009,0.368,Intermediate,514,0
+627,Advanced Signal Processing Vol.2,Author 140,Signal Processing,Electronics & Comm.,3,3,2024,0.159,Advanced,897,0
+628,Introduction to Signal Processing Vol.2,Author 140,Signal Processing,Electronics & Comm.,10,10,2019,0.738,Beginner,515,0
+629,Mastering Signal Processing Vol.2,Author 100,Signal Processing,Electronics & Comm.,6,6,2024,0.244,Advanced,934,0
+630,A Practical Guide to Signal Processing Vol.1,Author 57,Signal Processing,Electronics & Comm.,2,2,2018,0.171,Intermediate,775,0
+631,Introduction to Signal Processing Vol.2,Author 92,Signal Processing,Electronics & Comm.,2,2,2023,0.081,Beginner,541,0
+632,Applied Signal Processing Vol.1,Author 62,Signal Processing,Electronics & Comm.,3,3,2011,0.448,Advanced,896,0
+633,A Practical Guide to Signal Processing Vol.3,Author 148,Signal Processing,Electronics & Comm.,10,10,2009,0.197,Intermediate,582,0
+634,Concepts of Signal Processing Vol.2,Author 61,Signal Processing,Electronics & Comm.,10,10,2013,0.261,Intermediate,560,0
+635,Applied Signal Processing Vol.2,Author 8,Signal Processing,Electronics & Comm.,10,10,2019,0.279,Advanced,1072,0
+636,Signal Processing: Theory and Practice Vol.3,Author 49,Signal Processing,Electronics & Comm.,6,6,2012,0.249,Intermediate,758,0
+637,Mastering Signal Processing Vol.3,Author 10,Signal Processing,Electronics & Comm.,4,4,2013,0.389,Advanced,1021,0
+638,Fundamentals of Signal Processing Vol.1,Author 135,Signal Processing,Electronics & Comm.,3,3,2015,0.09,Beginner,280,0
+639,Mastering Signal Processing Vol.1,Author 88,Signal Processing,Electronics & Comm.,4,4,2014,0.239,Advanced,836,0
+640,Advanced Signal Processing Vol.2,Author 37,Signal Processing,Electronics & Comm.,2,2,2008,0.2,Advanced,845,0
+641,Fundamentals of Signal Processing Vol.3,Author 96,Signal Processing,Electronics & Comm.,10,10,2019,0.401,Beginner,307,0
+642,Concepts of Signal Processing Vol.3,Author 83,Signal Processing,Electronics & Comm.,2,2,2018,0.467,Intermediate,624,0
+643,Advanced Signal Processing Vol.1,Author 125,Signal Processing,Electronics & Comm.,8,8,2021,0.128,Advanced,1097,0
+644,Signal Processing: Theory and Practice Vol.1,Author 92,Signal Processing,Electronics & Comm.,8,8,2025,0.404,Intermediate,784,0
+645,Signal Processing Made Easy Vol.3,Author 79,Signal Processing,Electronics & Comm.,6,6,2013,0.089,Beginner,463,0
+646,A Practical Guide to Signal Processing Vol.1,Author 101,Signal Processing,Electronics & Comm.,3,3,2008,0.248,Intermediate,763,0
+647,Applied Signal Processing Vol.1,Author 57,Signal Processing,Electronics & Comm.,3,3,2018,0.264,Advanced,1083,0
+648,Applied Signal Processing Vol.1,Author 20,Signal Processing,Electronics & Comm.,5,5,2012,0.455,Advanced,939,0
+649,Signal Processing Made Easy Vol.2,Author 23,Signal Processing,Electronics & Comm.,4,4,2013,0.39,Beginner,595,0
+650,Signal Processing: Theory and Practice Vol.2,Author 64,Signal Processing,Electronics & Comm.,2,2,2016,0.097,Intermediate,577,0
+651,Fundamentals of Signal Processing Vol.2,Author 13,Signal Processing,Electronics & Comm.,4,4,2011,0.383,Beginner,270,0
+652,Concepts of Signal Processing Vol.2,Author 106,Signal Processing,Electronics & Comm.,8,8,2021,0.298,Intermediate,555,0
+653,Concepts of Soft Skills Vol.2,Author 123,Soft Skills,General,6,6,2020,0.59,Intermediate,521,0
+654,Applied Soft Skills Vol.3,Author 116,Soft Skills,General,10,10,2015,0.176,Advanced,853,0
+655,Fundamentals of Soft Skills Vol.1,Author 67,Soft Skills,General,4,4,2008,0.214,Beginner,433,0
+656,Fundamentals of Soft Skills Vol.1,Author 42,Soft Skills,General,4,4,2013,0.62,Beginner,462,0
+657,Fundamentals of Soft Skills Vol.3,Author 124,Soft Skills,General,2,2,2018,0.487,Beginner,574,0
+658,Introduction to Soft Skills Vol.2,Author 112,Soft Skills,General,8,8,2013,0.096,Beginner,580,0
+659,Advanced Soft Skills Vol.1,Author 49,Soft Skills,General,2,2,2018,0.25,Advanced,875,0
+660,Concepts of Soft Skills Vol.3,Author 73,Soft Skills,General,6,6,2025,0.341,Intermediate,605,0
+661,A Practical Guide to Soft Skills Vol.1,Author 147,Soft Skills,General,2,2,2009,0.401,Intermediate,671,0
+662,Soft Skills for Engineers Vol.2,Author 1,Soft Skills,General,3,3,2009,0.118,Intermediate,654,0
+663,Concepts of Soft Skills Vol.1,Author 25,Soft Skills,General,4,4,2023,0.557,Intermediate,572,0
+664,Introduction to Soft Skills Vol.1,Author 122,Soft Skills,General,3,3,2017,0.063,Beginner,311,0
+665,Fundamentals of Soft Skills Vol.2,Author 126,Soft Skills,General,10,10,2020,0.123,Beginner,511,0
+666,A Practical Guide to Soft Skills Vol.1,Author 48,Soft Skills,General,8,8,2025,0.53,Intermediate,668,0
+667,Soft Skills: Theory and Practice Vol.2,Author 12,Soft Skills,General,4,4,2013,0.271,Intermediate,698,0
+668,A Practical Guide to Soft Skills Vol.2,Author 69,Soft Skills,General,5,5,2016,0.277,Intermediate,585,0
+669,Applied Soft Skills Vol.1,Author 89,Soft Skills,General,3,3,2011,0.301,Advanced,813,0
+670,Soft Skills for Engineers Vol.2,Author 16,Soft Skills,General,10,10,2015,0.14,Intermediate,753,0
+671,Concepts of Soft Skills Vol.3,Author 147,Soft Skills,General,5,5,2025,0.074,Intermediate,713,0
+672,Soft Skills Made Easy Vol.2,Author 9,Soft Skills,General,4,4,2010,0.329,Beginner,472,0
+673,Soft Skills for Engineers Vol.3,Author 115,Soft Skills,General,6,6,2012,0.36,Intermediate,531,0
+674,Advanced Soft Skills Vol.1,Author 11,Soft Skills,General,3,3,2014,0.31,Advanced,834,0
+675,Concepts of Soft Skills Vol.1,Author 38,Soft Skills,General,8,8,2021,0.18,Intermediate,573,0
+676,Applied Soft Skills Vol.2,Author 100,Soft Skills,General,4,4,2010,0.11,Advanced,814,0
+677,Soft Skills for Engineers Vol.2,Author 134,Soft Skills,General,6,6,2018,0.227,Intermediate,611,0
+678,Mastering Soft Skills Vol.1,Author 29,Soft Skills,General,10,10,2024,0.639,Advanced,984,0
+679,Concepts of Soft Skills Vol.1,Author 145,Soft Skills,General,3,3,2011,0.243,Intermediate,524,0
+680,A Practical Guide to Statistics Vol.3,Author 99,Statistics,AI & Data Science,4,4,2021,0.216,Intermediate,605,0
+681,Mastering Statistics Vol.3,Author 45,Statistics,AI & Data Science,6,6,2023,0.249,Advanced,789,0
+682,A Practical Guide to Statistics Vol.2,Author 102,Statistics,AI & Data Science,3,3,2020,0.237,Intermediate,489,0
+683,Statistics: Theory and Practice Vol.3,Author 69,Statistics,AI & Data Science,3,3,2009,0.532,Intermediate,713,0
+684,Statistics: Theory and Practice Vol.1,Author 72,Statistics,AI & Data Science,4,4,2017,0.39,Intermediate,629,0
+685,Mastering Statistics Vol.3,Author 35,Statistics,AI & Data Science,8,8,2011,0.17,Advanced,886,0
+686,A Practical Guide to Statistics Vol.3,Author 107,Statistics,AI & Data Science,5,5,2018,0.204,Intermediate,607,0
+687,Applied Statistics Vol.3,Author 55,Statistics,AI & Data Science,2,2,2014,0.255,Advanced,996,0
+688,Concepts of Statistics Vol.3,Author 15,Statistics,AI & Data Science,5,5,2024,0.289,Intermediate,661,0
+689,Statistics for Engineers Vol.1,Author 104,Statistics,AI & Data Science,2,2,2017,0.141,Intermediate,729,0
+690,Advanced Statistics Vol.3,Author 50,Statistics,AI & Data Science,6,6,2008,0.188,Advanced,858,0
+691,Statistics Made Easy Vol.1,Author 13,Statistics,AI & Data Science,3,3,2009,0.565,Beginner,503,0
+692,Statistics: Theory and Practice Vol.3,Author 119,Statistics,AI & Data Science,3,3,2016,0.544,Intermediate,658,0
+693,Statistics for Engineers Vol.2,Author 62,Statistics,AI & Data Science,8,8,2011,0.207,Intermediate,485,0
+694,Statistics: Theory and Practice Vol.2,Author 122,Statistics,AI & Data Science,6,6,2022,0.194,Intermediate,560,0
+695,Applied Statistics Vol.3,Author 67,Statistics,AI & Data Science,4,4,2019,0.392,Advanced,853,0
+696,Fundamentals of Statistics Vol.2,Author 42,Statistics,AI & Data Science,2,2,2020,0.055,Beginner,295,0
+697,Applied Statistics Vol.1,Author 53,Statistics,AI & Data Science,10,10,2015,0.513,Advanced,885,0
+698,A Practical Guide to Statistics Vol.3,Author 3,Statistics,AI & Data Science,5,5,2024,0.168,Intermediate,480,0
+699,Mastering Statistics Vol.1,Author 3,Statistics,AI & Data Science,8,8,2013,0.35,Advanced,1077,0
+700,Statistics Made Easy Vol.2,Author 71,Statistics,AI & Data Science,6,6,2017,0.065,Beginner,599,0
+701,Concepts of Structural Engg Vol.2,Author 120,Structural Engg,Civil,5,5,2016,0.399,Intermediate,581,0
+702,A Practical Guide to Structural Engg Vol.3,Author 27,Structural Engg,Civil,6,6,2020,0.36,Intermediate,769,0
+703,Introduction to Structural Engg Vol.3,Author 73,Structural Engg,Civil,8,8,2019,0.337,Beginner,557,0
+704,A Practical Guide to Structural Engg Vol.3,Author 87,Structural Engg,Civil,2,2,2023,0.126,Intermediate,502,0
+705,A Practical Guide to Structural Engg Vol.3,Author 77,Structural Engg,Civil,4,4,2016,0.187,Intermediate,603,0
+706,Structural Engg Made Easy Vol.1,Author 104,Structural Engg,Civil,6,6,2015,0.309,Beginner,299,0
+707,Structural Engg: Theory and Practice Vol.3,Author 76,Structural Engg,Civil,3,3,2008,0.161,Intermediate,724,0
+708,A Practical Guide to Structural Engg Vol.2,Author 150,Structural Engg,Civil,5,5,2020,0.156,Intermediate,488,0
+709,Applied Structural Engg Vol.1,Author 122,Structural Engg,Civil,4,4,2015,0.489,Advanced,1043,0
+710,Structural Engg: Theory and Practice Vol.3,Author 47,Structural Engg,Civil,4,4,2013,0.041,Intermediate,755,0
+711,A Practical Guide to Structural Engg Vol.1,Author 144,Structural Engg,Civil,5,5,2012,0.501,Intermediate,602,0
+712,Advanced Structural Engg Vol.3,Author 91,Structural Engg,Civil,4,4,2010,0.125,Advanced,883,0
+713,Structural Engg Made Easy Vol.3,Author 85,Structural Engg,Civil,10,10,2017,0.378,Beginner,485,0
+714,Structural Engg: Theory and Practice Vol.2,Author 31,Structural Engg,Civil,6,6,2017,0.322,Intermediate,707,0
+715,Mastering Structural Engg Vol.1,Author 50,Structural Engg,Civil,10,10,2010,0.121,Advanced,1011,0
+716,Structural Engg for Engineers Vol.1,Author 77,Structural Engg,Civil,10,10,2020,0.165,Intermediate,741,0
+717,Concepts of Structural Engg Vol.1,Author 52,Structural Engg,Civil,10,10,2012,0.421,Intermediate,540,0
+718,Structural Engg: Theory and Practice Vol.2,Author 81,Structural Engg,Civil,6,6,2022,0.223,Intermediate,543,0
+719,Advanced Structural Engg Vol.1,Author 46,Structural Engg,Civil,5,5,2018,0.748,Advanced,1093,0
+720,Structural Engg: Theory and Practice Vol.3,Author 71,Structural Engg,Civil,2,2,2008,0.177,Intermediate,701,0
+721,Structural Engg Made Easy Vol.1,Author 23,Structural Engg,Civil,6,6,2013,0.169,Beginner,520,0
+722,Advanced Structural Engg Vol.3,Author 110,Structural Engg,Civil,5,5,2021,0.101,Advanced,976,0
+723,Mastering Structural Engg Vol.2,Author 52,Structural Engg,Civil,2,2,2009,0.155,Advanced,1043,0
+724,Structural Engg: Theory and Practice Vol.1,Author 5,Structural Engg,Civil,4,4,2024,0.252,Intermediate,567,0
+725,Introduction to Structural Engg Vol.3,Author 89,Structural Engg,Civil,8,8,2015,0.699,Beginner,385,0
+726,A Practical Guide to Structural Engg Vol.1,Author 79,Structural Engg,Civil,2,2,2020,0.163,Intermediate,727,0
+727,Fundamentals of Surveying Vol.1,Author 134,Surveying,Civil,4,4,2017,0.036,Beginner,503,0
+728,Applied Surveying Vol.3,Author 88,Surveying,Civil,4,4,2021,0.187,Advanced,838,0
+729,Mastering Surveying Vol.2,Author 104,Surveying,Civil,10,10,2014,0.28,Advanced,854,0
+730,Introduction to Surveying Vol.1,Author 6,Surveying,Civil,3,3,2012,0.504,Beginner,378,0
+731,Applied Surveying Vol.3,Author 10,Surveying,Civil,3,3,2011,0.291,Advanced,957,0
+732,Concepts of Surveying Vol.3,Author 13,Surveying,Civil,4,4,2025,0.214,Intermediate,789,0
+733,Applied Surveying Vol.1,Author 13,Surveying,Civil,8,8,2011,0.174,Advanced,780,0
+734,Fundamentals of Surveying Vol.2,Author 141,Surveying,Civil,5,5,2020,0.399,Beginner,333,0
+735,A Practical Guide to Surveying Vol.2,Author 3,Surveying,Civil,8,8,2012,0.266,Intermediate,575,0
+736,A Practical Guide to Surveying Vol.2,Author 70,Surveying,Civil,8,8,2011,0.402,Intermediate,736,0
+737,Applied Surveying Vol.3,Author 27,Surveying,Civil,8,8,2012,0.105,Advanced,984,0
+738,Surveying for Engineers Vol.3,Author 30,Surveying,Civil,6,6,2011,0.19,Intermediate,614,0
+739,Fundamentals of Surveying Vol.2,Author 134,Surveying,Civil,3,3,2014,0.355,Beginner,404,0
+740,Surveying Made Easy Vol.2,Author 42,Surveying,Civil,8,8,2021,0.079,Beginner,421,0
+741,Introduction to Surveying Vol.3,Author 85,Surveying,Civil,5,5,2014,0.124,Beginner,516,0
+742,Surveying Made Easy Vol.1,Author 147,Surveying,Civil,2,2,2010,0.241,Beginner,326,0
+743,Mastering Surveying Vol.1,Author 26,Surveying,Civil,2,2,2024,0.469,Advanced,808,0
+744,A Practical Guide to Surveying Vol.3,Author 68,Surveying,Civil,3,3,2022,0.549,Intermediate,621,0
+745,Mastering Surveying Vol.1,Author 75,Surveying,Civil,2,2,2013,0.132,Advanced,790,0
+746,Surveying: Theory and Practice Vol.3,Author 25,Surveying,Civil,4,4,2021,0.299,Intermediate,529,0
+747,Introduction to Surveying Vol.1,Author 85,Surveying,Civil,10,10,2012,0.515,Beginner,357,0
+748,Surveying: Theory and Practice Vol.2,Author 96,Surveying,Civil,6,6,2016,0.401,Intermediate,517,0
+749,Advanced Thermodynamics Vol.1,Author 70,Thermodynamics,Mechanical,5,5,2020,0.284,Advanced,1003,0
+750,Concepts of Thermodynamics Vol.3,Author 43,Thermodynamics,Mechanical,10,10,2023,0.318,Intermediate,685,0
+751,Fundamentals of Thermodynamics Vol.1,Author 27,Thermodynamics,Mechanical,8,8,2009,0.138,Beginner,351,0
+752,Concepts of Thermodynamics Vol.3,Author 98,Thermodynamics,Mechanical,5,5,2022,0.201,Intermediate,562,0
+753,Thermodynamics: Theory and Practice Vol.3,Author 125,Thermodynamics,Mechanical,2,2,2012,0.242,Intermediate,717,0
+754,Fundamentals of Thermodynamics Vol.2,Author 67,Thermodynamics,Mechanical,5,5,2009,0.23,Beginner,302,0
+755,Thermodynamics: Theory and Practice Vol.1,Author 145,Thermodynamics,Mechanical,8,8,2024,0.216,Intermediate,765,0
+756,Thermodynamics Made Easy Vol.3,Author 134,Thermodynamics,Mechanical,10,10,2018,0.123,Beginner,535,0
+757,Applied Thermodynamics Vol.1,Author 89,Thermodynamics,Mechanical,5,5,2015,0.516,Advanced,1016,0
+758,Concepts of Thermodynamics Vol.1,Author 14,Thermodynamics,Mechanical,10,10,2025,0.262,Intermediate,783,0
+759,Introduction to Thermodynamics Vol.3,Author 127,Thermodynamics,Mechanical,3,3,2024,0.231,Beginner,510,0
+760,Advanced Thermodynamics Vol.1,Author 62,Thermodynamics,Mechanical,10,10,2023,0.096,Advanced,934,0
+761,Thermodynamics: Theory and Practice Vol.2,Author 141,Thermodynamics,Mechanical,2,2,2024,0.34,Intermediate,584,0
+762,Concepts of Thermodynamics Vol.2,Author 118,Thermodynamics,Mechanical,10,10,2015,0.157,Intermediate,510,0
+763,Mastering Thermodynamics Vol.3,Author 115,Thermodynamics,Mechanical,5,5,2010,0.162,Advanced,1025,0
+764,Thermodynamics: Theory and Practice Vol.1,Author 104,Thermodynamics,Mechanical,5,5,2008,0.195,Intermediate,522,0
+765,Concepts of Thermodynamics Vol.1,Author 24,Thermodynamics,Mechanical,6,6,2025,0.389,Intermediate,470,0
+766,Applied Thermodynamics Vol.3,Author 144,Thermodynamics,Mechanical,8,8,2017,0.324,Advanced,1030,0
+767,Thermodynamics Made Easy Vol.3,Author 94,Thermodynamics,Mechanical,8,8,2022,0.057,Beginner,444,0
+768,Introduction to Thermodynamics Vol.1,Author 144,Thermodynamics,Mechanical,10,10,2022,0.507,Beginner,439,0
+769,Applied Thermodynamics Vol.3,Author 30,Thermodynamics,Mechanical,5,5,2019,0.304,Advanced,1001,0
+770,Fundamentals of Thermodynamics Vol.3,Author 91,Thermodynamics,Mechanical,3,3,2008,0.297,Beginner,444,0
+771,A Practical Guide to Thermodynamics Vol.3,Author 12,Thermodynamics,Mechanical,6,6,2019,0.137,Intermediate,524,0
+772,Advanced Thermodynamics Vol.2,Author 66,Thermodynamics,Mechanical,3,3,2021,0.449,Advanced,824,0
+773,Applied Thermodynamics Vol.1,Author 56,Thermodynamics,Mechanical,3,3,2011,0.252,Advanced,971,0
+774,VLSI Made Easy Vol.3,Author 12,VLSI,Electronics & Comm.,4,4,2011,0.17,Beginner,482,0
+775,Applied VLSI Vol.1,Author 130,VLSI,Electronics & Comm.,10,10,2022,0.08,Advanced,1004,0
+776,Advanced VLSI Vol.2,Author 142,VLSI,Electronics & Comm.,2,2,2024,0.233,Advanced,794,0
+777,Concepts of VLSI Vol.3,Author 149,VLSI,Electronics & Comm.,5,5,2024,0.484,Intermediate,560,0
+778,Advanced VLSI Vol.3,Author 100,VLSI,Electronics & Comm.,10,10,2012,0.169,Advanced,823,0
+779,Applied VLSI Vol.3,Author 108,VLSI,Electronics & Comm.,4,4,2024,0.075,Advanced,966,0
+780,Applied VLSI Vol.3,Author 102,VLSI,Electronics & Comm.,10,10,2015,0.185,Advanced,910,0
+781,VLSI: Theory and Practice Vol.2,Author 106,VLSI,Electronics & Comm.,5,5,2012,0.168,Intermediate,540,0
+782,Applied VLSI Vol.3,Author 141,VLSI,Electronics & Comm.,8,8,2024,0.276,Advanced,923,0
+783,VLSI: Theory and Practice Vol.3,Author 56,VLSI,Electronics & Comm.,8,8,2025,0.131,Intermediate,793,0
+784,VLSI Made Easy Vol.1,Author 34,VLSI,Electronics & Comm.,6,6,2017,0.154,Beginner,446,0
+785,Advanced VLSI Vol.3,Author 91,VLSI,Electronics & Comm.,6,6,2018,0.09,Advanced,829,0
+786,VLSI for Engineers Vol.2,Author 74,VLSI,Electronics & Comm.,6,6,2021,0.347,Intermediate,743,0
+787,Concepts of VLSI Vol.1,Author 98,VLSI,Electronics & Comm.,6,6,2011,0.165,Intermediate,482,0
+788,Advanced VLSI Vol.1,Author 69,VLSI,Electronics & Comm.,8,8,2009,0.145,Advanced,872,0
+789,Advanced VLSI Vol.2,Author 16,VLSI,Electronics & Comm.,8,8,2016,0.451,Advanced,844,0
+790,A Practical Guide to VLSI Vol.1,Author 92,VLSI,Electronics & Comm.,10,10,2025,0.529,Intermediate,486,0
+791,Mastering VLSI Vol.1,Author 144,VLSI,Electronics & Comm.,6,6,2025,0.377,Advanced,884,0
+792,Concepts of VLSI Vol.1,Author 98,VLSI,Electronics & Comm.,6,6,2017,0.498,Intermediate,494,0
+793,Concepts of VLSI Vol.2,Author 14,VLSI,Electronics & Comm.,10,10,2018,0.423,Intermediate,752,0
+794,Introduction to VLSI Vol.3,Author 114,VLSI,Electronics & Comm.,4,4,2014,0.217,Beginner,587,0
+795,VLSI Made Easy Vol.3,Author 140,VLSI,Electronics & Comm.,8,8,2019,0.105,Beginner,571,0
+796,Applied VLSI Vol.1,Author 115,VLSI,Electronics & Comm.,10,10,2014,0.177,Advanced,920,0
+797,Advanced VLSI Vol.3,Author 132,VLSI,Electronics & Comm.,2,2,2013,0.156,Advanced,858,0
+798,Fundamentals of VLSI Vol.2,Author 143,VLSI,Electronics & Comm.,2,2,2021,0.358,Beginner,412,0
+799,A Practical Guide to VLSI Vol.1,Author 85,VLSI,Electronics & Comm.,3,3,2016,0.238,Intermediate,472,0
+800,Mastering VLSI Vol.3,Author 83,VLSI,Electronics & Comm.,3,3,2009,0.044,Advanced,848,0

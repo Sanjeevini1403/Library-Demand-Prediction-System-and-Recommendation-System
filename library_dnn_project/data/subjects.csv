@@ -1,0 +1,36 @@
+subject_id,department,semester_type,subject_name,category,syllabus_active_week
+1,Computer Science,Odd-Semester,Programming (Core Course),Programming,1
+2,Computer Science,Even-Semester,Data Structures (Core Course),Data Structures,8
+3,Computer Science,Odd-Semester,AI/ML (Core Course),AI/ML,8
+4,Computer Science,Even-Semester,Databases (Core Course),Databases,2
+5,Computer Science,Odd-Semester,Networks (Core Course),Networks,1
+6,Electronics & Comm.,Odd-Semester,Circuits (Core Course),Circuits,6
+7,Electronics & Comm.,Even-Semester,Signal Processing (Core Course),Signal Processing,2
+8,Electronics & Comm.,Odd-Semester,Communication Systems (Core Course),Communication Systems,4
+9,Electronics & Comm.,Even-Semester,VLSI (Core Course),VLSI,2
+10,Mechanical,Odd-Semester,Thermodynamics (Core Course),Thermodynamics,1
+11,Mechanical,Even-Semester,Design (Core Course),Design,6
+12,Mechanical,Odd-Semester,Manufacturing (Core Course),Manufacturing,8
+13,Mechanical,Even-Semester,Fluid Mechanics (Core Course),Fluid Mechanics,6
+14,Civil,Odd-Semester,Structural Engg (Core Course),Structural Engg,8
+15,Civil,Even-Semester,Surveying (Core Course),Surveying,4
+16,Civil,Odd-Semester,Construction (Core Course),Construction,2
+17,Civil,Even-Semester,Geotechnical (Core Course),Geotechnical,1
+18,Electrical,Odd-Semester,Power Systems (Core Course),Power Systems,4
+19,Electrical,Even-Semester,Control Systems (Core Course),Control Systems,2
+20,Electrical,Odd-Semester,Machines (Core Course),Machines,8
+21,AI & Data Science,Odd-Semester,AI/ML (Core Course),AI/ML,1
+22,AI & Data Science,Even-Semester,Data Structures (Core Course),Data Structures,1
+23,AI & Data Science,Odd-Semester,Statistics (Core Course),Statistics,8
+24,AI & Data Science,Even-Semester,Deep Learning (Core Course),Deep Learning,6
+25,Biotechnology,Odd-Semester,Genetics (Core Course),Genetics,6
+26,Biotechnology,Even-Semester,Microbiology (Core Course),Microbiology,6
+27,Biotechnology,Odd-Semester,Bioprocess (Core Course),Bioprocess,1
+28,MBA,Odd-Semester,Finance (Core Course),Finance,2
+29,MBA,Even-Semester,Marketing (Core Course),Marketing,2
+30,MBA,Odd-Semester,HR (Core Course),HR,2
+31,MBA,Even-Semester,Operations (Core Course),Operations,4
+32,General,Odd-Semester,Fiction (Core Course),Fiction,4
+33,General,Even-Semester,Competitive Exams (Core Course),Competitive Exams,6
+34,General,Odd-Semester,Soft Skills (Core Course),Soft Skills,6
+35,General,Even-Semester,General Science (Core Course),General Science,2

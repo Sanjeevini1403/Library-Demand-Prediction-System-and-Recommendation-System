@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Library Book Demand Prediction & Recommendation System</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-icon">📚</span>
+      <div>
+        <h1>Library Dashboard</h1>
+        <p class="subtitle">DNN Demand Prediction System</p>
+      </div>
+    </div>
+
+    <nav class="side-nav">
+      <button class="side-link active" data-tab="dashboard"><span class="side-ico">🏠</span> Dashboard</button>
+      <div class="side-group-label">Catalog</div>
+      <button class="side-link" data-tab="books"><span class="side-ico">📚</span> Books</button>
+      <div class="side-group-label">AI Predictions</div>
+      <button class="side-link" data-tab="predictions"><span class="side-ico">📈</span> Demand Prediction</button>
+      <button class="side-link" data-tab="forecast"><span class="side-ico">🔮</span> Forecast</button>
+      <div class="side-group-label">Operations</div>
+      <button class="side-link" data-tab="inventory"><span class="side-ico">📦</span> Inventory</button>
+      <button class="side-link" data-tab="shortage"><span class="side-ico">🚨</span> Shortage Alerts</button>
+      <button class="side-link" data-tab="budget"><span class="side-ico">💰</span> Budget Optimizer</button>
+      <div class="side-group-label">Students</div>
+      <button class="side-link" data-tab="recommend"><span class="side-ico">👨‍🎓</span> Student Recommendations</button>
+      <button class="side-link" data-tab="readingpath"><span class="side-ico">🧠</span> Reading Path</button>
+      <div class="side-group-label">Circulation</div>
+      <button class="side-link" data-tab="circulation"><span class="side-ico">🔄</span> Issue &amp; Return</button>
+      <div class="side-group-label">Insights</div>
+      <button class="side-link" data-tab="whatif"><span class="side-ico">🔬</span> What-If Analysis</button>
+      <button class="side-link" data-tab="analytics"><span class="side-ico">📊</span> Analytics</button>
+      <button class="side-link" data-tab="modelperf"><span class="side-ico">🧪</span> Model Performance</button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-user">
+        <span>👤 {{ username }}</span>
+        <a href="{{ url_for('logout') }}">Log out</a>
+      </div>
+      <div class="mode-badge" id="modeBadge">Predictor mode: {{ predictor_mode }}</div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <div class="main-wrap">
+
+    <header class="topbar">
+      <button class="hamburger" id="hamburgerBtn">☰</button>
+      <h2 id="pageTitle">🏠 Dashboard</h2>
+      <div id="academicPill" class="pill"></div>
+    </header>
+
+    <main>
+
+      <!-- DASHBOARD (OVERVIEW) -->
+      <section id="dashboard" class="tab-panel active">
+        <div id="academicStatusBanner" class="info-box" style="display:block;"></div>
+        <div class="cards" id="summaryCards"></div>
+        <div class="panel">
+          <h2>Overall Demand Trend (last weeks) vs Forecast</h2>
+          <canvas id="trendChart" height="90"></canvas>
+        </div>
+        <div class="panel">
+          <h2>🚨 Proactive Alerts Feed</h2>
+          <p class="hint">Unified feed: low stock, upcoming shortages, unusual spikes, and overstock — everything the librarian should know about today.</p>
+          <div class="table-wrap">
+            <table id="proactiveAlertsTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Alert Type</th><th>Severity</th><th>Message</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOOKS -->
+      <section id="books" class="tab-panel">
+        <div class="panel">
+          <h2>📚 Book Catalog</h2>
+          <p class="hint">Search and filter the full catalog. Each book shows live availability and its current AI demand score.</p>
+          <div class="filters">
+            <input type="text" id="bookSearchInput" placeholder="Search title or author...">
+            <select id="bookCategoryFilter"><option value="">All categories</option></select>
+            <select id="bookDepartmentFilter"><option value="">All departments</option></select>
+            <button onclick="loadBooksCatalog()">Search</button>
+          </div>
+          <div class="table-wrap">
+            <table id="booksCatalogTable">
+              <thead><tr><th>Book</th><th>Author</th><th>Category</th><th>Department</th>
+                  <th>Available / Total</th><th>Demand Score</th><th></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>🔄 Unavailable Book → Similar Alternative</h2>
+          <p class="hint">Pick a book from the catalog above (click "Alternatives") or enter a Book ID directly.</p>
+          <div class="filters">
+            <label>Book ID:</label>
+            <input type="number" id="bookIdInput" placeholder="e.g. 1">
+            <button onclick="loadAlternatives()">Find Alternatives</button>
+            <span class="hint" id="sampleBookHint"></span>
+          </div>
+          <div class="table-wrap">
+            <table id="alternativesTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Match Reason</th>
+                  <th>Available</th><th>Demand Score</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- CIRCULATION DESK -->
+      <section id="circulation" class="tab-panel">
+        <div class="panel">
+          <h2>📗 Issue a Book</h2>
+          <p class="hint">Creates a real borrow transaction and reduces the book's available copies.</p>
+          <div class="filters">
+            <label>Student ID:</label>
+            <input type="number" id="issueStudentId" placeholder="e.g. 50">
+            <label>Book ID:</label>
+            <input type="number" id="issueBookId" placeholder="e.g. 12">
+            <button onclick="issueBook()">Issue Book</button>
+          </div>
+          <div id="issueResultBox" class="info-box"></div>
+        </div>
+        <div class="panel">
+          <h2>📘 Return a Book</h2>
+          <p class="hint">Pick a transaction from "Currently Issued Books" below, or enter its ID directly.</p>
+          <div class="filters">
+            <label>Transaction ID:</label>
+            <input type="number" id="returnTransactionId" placeholder="e.g. 35882">
+            <button onclick="returnBook()">Return Book</button>
+          </div>
+          <div id="returnResultBox" class="info-box"></div>
+        </div>
+        <div class="panel">
+          <h2>📖 Currently Issued Books</h2>
+          <div class="table-wrap">
+            <table id="activeLoansTable">
+              <thead><tr><th>Txn ID</th><th>Book</th><th>Student</th><th>Dept</th><th>Borrowed On</th><th></th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>🕘 Recent Circulation History</h2>
+          <div class="table-wrap">
+            <table id="circHistoryTable">
+              <thead><tr><th>Txn ID</th><th>Book</th><th>Student</th><th>Borrowed On</th><th>Returned On</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEMAND PREDICTION -->
+      <section id="predictions" class="tab-panel">
+        <div class="panel">
+          <h2>📈 DNN Book Demand Prediction <span class="hint">(+ syllabus/calendar-adjusted score)</span></h2>
+          <p class="hint">Predicted next-week borrow demand and 0–100 demand score, per book. "Adjusted" includes syllabus + academic-calendar context. Click "Why?" for an explainable-AI breakdown.</p>
+          <div class="filters">
+            <select id="predCategory"><option value="">All categories</option></select>
+            <select id="predDepartment"><option value="">All departments</option></select>
+            <button onclick="loadPredictions()">Refresh</button>
+            <button onclick="exportReport('demand-prediction')">⬇️ Export CSV</button>
+          </div>
+          <div id="explainBox" class="info-box"></div>
+          <div class="table-wrap">
+            <table id="predictionsTable">
+              <thead>
+                <tr><th>Book</th><th>Category</th><th>Department</th><th>Base Demand</th>
+                    <th>Adjusted Demand</th><th>Adjusted Score</th><th>Confidence</th>
+                    <th>Available / Total</th><th></th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORECAST -->
+      <section id="forecast" class="tab-panel">
+        <div class="panel">
+          <h2>🔮 Demand Forecast</h2>
+          <p class="hint">Historical borrow trend vs next-period forecast, for the whole library or a single book.</p>
+          <div class="filters">
+            <input type="number" id="forecastBookIdInput" placeholder="Book ID (optional)">
+            <button onclick="loadForecastTrend()">Forecast</button>
+            <button onclick="document.getElementById('forecastBookIdInput').value=''; loadForecastTrend();">Reset to whole library</button>
+          </div>
+          <canvas id="forecastTrendChart" height="90"></canvas>
+        </div>
+        <div class="panel">
+          <h2>📅 Academic Calendar Prediction</h2>
+          <p class="hint">Current + upcoming exam/internal-test/holiday events, university-wide — these drive the forecast.</p>
+          <div id="calendarStatusBox" class="info-box" style="display:block;"></div>
+          <div class="table-wrap">
+            <table id="calendarTable">
+              <thead><tr><th>Event</th><th>Semester Type</th><th>Start</th><th>End</th><th>Days Away</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>📚 Syllabus-Aware Prediction</h2>
+          <p class="hint">Subjects/categories that are active or starting soon, per department — these get a demand boost in the forecast.</p>
+          <div class="filters">
+            <select id="syllabusDept"><option value="">All departments</option></select>
+            <button onclick="loadUpcomingSubjects()">Refresh</button>
+          </div>
+          <div class="table-wrap">
+            <table id="subjectsTable">
+              <thead><tr><th>Department</th><th>Subject</th><th>Category</th><th>Semester Type</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- INVENTORY -->
+      <section id="inventory" class="tab-panel">
+        <div class="panel">
+          <h2>📦 AI Inventory / Extra-Copy Suggestions</h2>
+          <div class="filters"><button onclick="exportReport('inventory')">⬇️ Export CSV</button></div>
+          <div class="table-wrap">
+            <table id="inventoryTable">
+              <thead><tr><th>Book</th><th>Predicted Demand</th><th>Current Copies</th>
+                  <th>Suggested Extra Copies</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>♻️ Overstock Detection</h2>
+          <p class="hint">Books likely to remain unused — candidates for weeding/reduced reordering.</p>
+          <div class="table-wrap">
+            <table id="overstockTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Total Copies</th>
+                  <th>Adjusted Score</th><th>Excess Copies</th><th>Potential Savings</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>🗑️ Low-Usage / Dead Stock Books</h2>
+          <p class="hint">Very low demand books that still take up shelf space — candidates for donation or archiving.</p>
+          <div class="table-wrap">
+            <table id="lowUsageTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Demand Score</th><th>Total Copies</th><th>Suggestion</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- SHORTAGE ALERTS -->
+      <section id="shortage" class="tab-panel">
+        <div class="panel">
+          <h2>🚨 High-Demand &amp; Low-Availability Alerts</h2>
+          <div class="filters"><button onclick="exportReport('alerts')">⬇️ Export CSV</button></div>
+          <div class="table-wrap">
+            <table id="alertsTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Demand Score</th>
+                  <th>Available/Total</th><th>Severity</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>⏳ Early Shortage Prediction</h2>
+          <p class="hint">Books projected to run out of copies before they'd normally trigger a low-stock alert.</p>
+          <div class="table-wrap">
+            <table id="shortageTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Available</th>
+                  <th>Adjusted Demand/wk</th><th>Weeks to Shortage</th><th>Risk</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>🕵️ Anomaly Detection</h2>
+          <p class="hint">Books whose most recent week of borrowing is statistically unusual vs their own history (z-score method).</p>
+          <div class="table-wrap">
+            <table id="anomalyTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Last Week</th>
+                  <th>Historical Avg</th><th>Z-score</th><th>Type</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- BUDGET OPTIMIZER -->
+      <section id="budget" class="tab-panel">
+        <div class="panel">
+          <h2>💰 Budget Optimizer</h2>
+          <p class="hint">Greedy priority-based allocation of the acquisition plan within a fixed budget (reinvests a share of Overstock Detection savings).</p>
+          <div class="filters">
+            <label>Budget:</label>
+            <input type="number" id="budgetInput" placeholder="e.g. 250000">
+            <button onclick="loadBudgetOptimizer()">Optimize</button>
+            <button onclick="exportReport('acquisition-plan')">⬇️ Export Acquisition Plan CSV</button>
+          </div>
+          <div id="budgetSummaryBox" class="info-box" style="display:block;"></div>
+          <div class="table-wrap">
+            <table id="budgetTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Copies Funded</th><th>Amount Spent</th><th>Priority</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>📦 Smart Acquisition Planner</h2>
+          <p class="hint">Exactly how many extra copies of which books to buy over the next month, priced out (full plan — before budget constraints).</p>
+          <div class="table-wrap">
+            <table id="acquisitionTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Adjusted Demand</th><th>Adjusted Score</th>
+                  <th>Copies to Buy</th><th>Unit Cost</th><th>Est. Cost</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- STUDENT RECOMMENDATIONS -->
+      <section id="recommend" class="tab-panel">
+        <div class="panel">
+          <h2>👨‍🎓 Personalized Recommendation</h2>
+          <p class="hint">Combines student interest (reading pattern) + current availability + DNN-predicted future demand.</p>
+          <div class="filters">
+            <label>Student ID:</label>
+            <input type="number" id="studentIdInput" placeholder="e.g. 50">
+            <button onclick="loadStudentView()">Analyze</button>
+            <span class="hint" id="sampleStudentHint"></span>
+          </div>
+          <div id="readingPatternBox" class="info-box"></div>
+          <div class="table-wrap">
+            <table id="recommendTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Interest</th>
+                  <th>Availability</th><th>Demand Score</th><th>Final Score</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>📈 Student Interest Forecasting</h2>
+          <p class="hint">Compares recent vs earlier borrowing to spot rising/fading/new interests for this student.</p>
+          <div class="table-wrap">
+            <table id="interestForecastTable">
+              <thead><tr><th>Category</th><th>Recent Borrows</th><th>Earlier Borrows</th><th>Trend</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- READING PATH -->
+      <section id="readingpath" class="tab-panel">
+        <div class="panel">
+          <h2>🧠 Personalized Reading Path</h2>
+          <p class="hint">An ordered Beginner → Intermediate → Advanced sequence in the student's top interest category (or a chosen category).</p>
+          <div class="filters">
+            <label>Student ID:</label>
+            <input type="number" id="readingPathStudentId" placeholder="e.g. 50">
+            <select id="readingPathCategory"><option value="">(auto: top interest)</option></select>
+            <button onclick="loadReadingPath()">Build Path</button>
+          </div>
+          <div id="readingPathBox" class="hint" style="margin-bottom:10px;"></div>
+          <div class="table-wrap">
+            <table id="readingPathTable">
+              <thead><tr><th>Step</th><th>Book</th><th>Difficulty</th><th>Available</th><th>Demand Score</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT-IF ANALYSIS -->
+      <section id="whatif" class="tab-panel">
+        <div class="panel">
+          <h2>🔬 What-If Prediction</h2>
+          <p class="hint">Simulate demand under different calendar scenarios using the same trained model.</p>
+          <div class="filters">
+            <select id="whatifScenario">
+              <option value="exam_season">Exam Season</option>
+              <option value="vacation">Vacation</option>
+              <option value="normal">Normal Week</option>
+            </select>
+            <select id="whatifCategory"><option value="">All categories</option></select>
+            <button onclick="loadWhatIf()">Simulate</button>
+          </div>
+          <div class="table-wrap">
+            <table id="whatifTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Simulated Demand</th>
+                  <th>Simulated Score</th><th>Available</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>🆕 What-If: New/Expanded Course</h2>
+          <p class="hint">Simulate launching or expanding a course tied to a category in a department.</p>
+          <div class="filters">
+            <select id="newCourseDept"></select>
+            <select id="newCourseCategory"></select>
+            <select id="newCourseIntensity">
+              <option value="normal">Normal syllabus addition</option>
+              <option value="internal_test" selected>With internal test pressure</option>
+              <option value="exam">With exam pressure</option>
+            </select>
+            <button onclick="loadNewCourseWhatIf()">Simulate</button>
+          </div>
+          <div class="table-wrap">
+            <table id="newCourseTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Base Demand</th><th>Simulated Demand</th><th>Simulated Score</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>🎓 What-If: Enrollment Change</h2>
+          <p class="hint">Simulate a department-wide student intake increase/decrease.</p>
+          <div class="filters">
+            <select id="enrollDept"></select>
+            <input type="number" id="enrollPct" value="20" style="width:80px;"> <span class="hint">% change</span>
+            <button onclick="loadEnrollmentWhatIf()">Simulate</button>
+          </div>
+          <div class="table-wrap">
+            <table id="enrollTable">
+              <thead><tr><th>Book</th><th>Category</th><th>Baseline Demand</th><th>Simulated Demand</th><th>Simulated Score</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ANALYTICS -->
+      <section id="analytics" class="tab-panel">
+        <div class="panel">
+          <h2>📊 Category-wise Demand</h2>
+          <canvas id="categoryChart" height="100"></canvas>
+        </div>
+        <div class="panel">
+          <h2>🏫 Department-wise Demand</h2>
+          <canvas id="departmentChart" height="100"></canvas>
+        </div>
+        <div class="panel">
+          <h2>🏫 Department-wise Semester Forecast</h2>
+          <p class="hint">Adjusted (syllabus/calendar-aware) demand per department, with each department's active semester type and the next university-wide calendar event.</p>
+          <div class="table-wrap">
+            <table id="deptForecastTable">
+              <thead><tr><th>Department</th><th>Total Adjusted Demand</th><th>Avg Adjusted Score</th>
+                  <th>Books</th><th>Semester Type</th><th>Next Event</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- MODEL PERFORMANCE -->
+      <section id="modelperf" class="tab-panel">
+        <div class="panel">
+          <h2>🧪 DNN Model Performance</h2>
+          <p class="hint">Evaluation of the trained Deep Neural Network on a held-out test set — for the project report/viva.</p>
+          <div id="modelModeBanner" class="info-box" style="display:block;"></div>
+          <div class="cards" id="modelMetricCards"></div>
+          <div id="trainingPlotWrap" style="display:none; margin-top:10px;">
+            <img id="trainingPlotImg" style="max-width:100%; border-radius:10px; border:1px solid var(--border);">
+          </div>
+        </div>
+        <div class="panel">
+          <h2>🧬 Model Architecture</h2>
+          <p class="hint" id="modelArchText"></p>
+        </div>
+        <div class="panel">
+          <h2>🧾 Input Features Used by the DNN</h2>
+          <div class="table-wrap">
+            <table id="featureTable">
+              <thead><tr><th>#</th><th>Feature</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Deep Neural Network Based Library Book Demand Prediction &amp; Intelligent Recommendation System — College Project (Python · TensorFlow/Keras · Flask · SQLite)</p>
+    </footer>
+
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>

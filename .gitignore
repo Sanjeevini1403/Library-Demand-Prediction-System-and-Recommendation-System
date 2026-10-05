@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+**/venv/
+.venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Generated model files
+model/artifacts/
+
+# IDE
+.vscode/
+.idea/
